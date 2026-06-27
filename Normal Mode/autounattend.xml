@@ -1,0 +1,1753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unattend xmlns="urn:schemas-microsoft-com:unattend" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State">
+	<!--https://schneegans.de/windows/unattend-generator/?LanguageMode=Unattended&UILanguage=en-US&Locale=en-US&Keyboard=00000409&UseKeyboard2=true&Locale2=en-IN&Keyboard2=00004009&GeoLocation=244&PEMode=Default&WindowsEditionMode=Generic&WindowsEdition=pro&ProcessorArchitecture=x86&ProcessorArchitecture=amd64&ProcessorArchitecture=arm64&BypassRequirementsCheck=true&BypassNetworkCheck=true&UseConfigurationSet=true&HidePowerShellWindows=true&KeepSensitiveFiles=true&ComputerNameMode=Script&ComputerNameScript=return+%27SLNGNR-XPC-%7B0%3AD3%7D%27+-f+%28+Get-Random+-Minimum+0+-Maximum+369+%29%3B&TimeZoneMode=Explicit&TimeZone=India+Standard+Time&UserAccountMode=InteractiveLocal&PasswordExpirationMode=Unlimited&LockoutMode=Default&HideFiles=Hidden&ClassicContextMenu=true&HideInfoTip=true&LaunchToThisPC=true&ShowEndTask=true&TaskbarSearch=Icon&TaskbarIconsMode=Empty&DisableWidgets=true&LeftTaskbar=true&HideTaskViewButton=true&DisableBingResults=true&StartTilesMode=Empty&StartPinsMode=Empty&DisableUac=true&DisableSac=true&DisableSmartScreen=true&DisableFastStartup=true&DisableSystemRestore=true&EnableLongPaths=true&EnableRemoteDesktop=true&HardenSystemDriveAcl=true&DeleteJunctions=true&AllowPowerShellScripts=true&DisableLastAccess=true&PreventAutomaticReboot=true&DisableAppSuggestions=true&PreventDeviceEncryption=true&HideEdgeFre=true&DisableEdgeStartupBoost=true&MakeEdgeUninstallable=true&DisablePointerPrecision=true&CoreIsolationMode=Disabled&DeleteWindowsOld=true&DisableAutomaticRestartSignOn=true&DisableWpbt=true&EffectsMode=Performance&DesktopIconsMode=Custom&IconControlPanel=true&IconNetwork=true&IconRecycleBin=true&IconThisPC=true&IconUserFiles=true&StartFoldersMode=Custom&StartFolderDocuments=true&StartFolderFileExplorer=true&StartFolderNetwork=true&StartFolderPersonalFolder=true&StartFolderPictures=true&StartFolderSettings=true&WifiMode=Skip&ExpressSettings=DisableAll&LockKeysMode=Configure&CapsLockInitial=Off&CapsLockBehavior=Toggle&NumLockInitial=On&NumLockBehavior=Toggle&ScrollLockInitial=Off&ScrollLockBehavior=Toggle&StickyKeysMode=Default&ColorMode=Default&WallpaperMode=Default&LockScreenMode=Default&Remove3DViewer=true&RemoveBingSearch=true&RemoveClipchamp=true&RemoveClock=true&RemoveCopilot=true&RemoveCortana=true&RemoveDevHome=true&RemoveWindowsHello=true&RemoveFamily=true&RemoveFeedbackHub=true&RemoveGameAssist=true&RemoveGetHelp=true&RemoveHandwriting=true&RemoveInternetExplorer=true&RemoveMailCalendar=true&RemoveMaps=true&RemoveMathInputPanel=true&RemoveMediaFeatures=true&RemoveMixedReality=true&RemoveZuneVideo=true&RemoveNews=true&RemoveOffice365=true&RemoveOneDrive=true&RemoveOneNote=true&RemoveOneSync=true&RemoveOpenSSHClient=true&RemoveOutlook=true&RemovePaint3D=true&RemovePeople=true&RemovePowerAutomate=true&RemovePowerShellISE=true&RemoveQuickAssist=true&RemoveRecall=true&RemoveRdpClient=true&RemoveSkype=true&RemoveSolitaire=true&RemoveSpeech=true&RemoveStepsRecorder=true&RemoveStickyNotes=true&RemoveTeams=true&RemoveGetStarted=true&RemoveToDo=true&RemoveVoiceRecorder=true&RemoveWallet=true&RemoveWeather=true&RemoveFaxAndScan=true&RemoveWindowsMediaPlayer=true&RemoveZuneMusic=true&RemoveXboxApps=true&RemoveYourPhone=true&FirstLogonScript0=Windows+Registry+Editor+Version+5.00%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5D%0D%0A%22TbInstallFlag%22%3Ddword%3A00000000%0D%0A%22TbInstallFlag2%22%3Ddword%3A00000000%0D%0A%22Install_Dir_x64%22%3D%22C%3A%5C%5CProgram+Files%5C%5CPowerISO%22%0D%0A%22Status%22%3Ddword%3A00000005%0D%0A%22ShellIntegration%22%3Ddword%3A00000001%0D%0A%22CheckUpgrade%22%3Ddword%3A00004ff9%0D%0A%22Language%22%3Ddword%3A00000409%0D%0A%22USER%22%3Dhex%3A00%2C04%2C46%2C52%2C45%2C45%2C0b%2Cdb%2C40%2Cc6%2C80%2C20%2Cc6%2C71%2C0c%2C15%2C60%2C7a%2Ca9%2C5a%2C31%2C55%0D%0A%22MainWindow%22%3Dhex%3Ac0%2C00%2C00%2C00%2Cc0%2C00%2C00%2C00%2Ca0%2C05%2C00%2C00%2Ce4%2C02%2C00%2C00%2C00%2C00%2C00%2C00%2C%5C%0D%0A++e3%2C03%2C00%2C00%2C63%2C01%2C00%2C00%2Cff%2Cff%2Cff%2Cff%2Cff%2Cff%2Cff%2Cff%2Cff%2Cff%2Cff%2Cff%2Cff%2Cff%2Cff%2Cff%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CFileTypes%5D%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CFileTypes%5C.daa%5D%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CFileTypes%5C.daa%5CSaved%5D%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CFileTypes%5C.iso%5D%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CFileTypes%5C.iso%5CSaved%5D%0D%0A%40%3D%22Windows.IsoFile%22%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CFileTypes%5C.iso%5CSaved%5COpenWithProgids%5D%0D%0A%22Windows.IsoFile%22%3D%22%22%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CFileTypes%5C.isz%5D%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CFileTypes%5C.isz%5CSaved%5D%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CFileTypes%5C.uif%5D%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CFileTypes%5C.uif%5CSaved%5D%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CFileTypes%5C.xdi%5D%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CFileTypes%5C.xdi%5CSaved%5D%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CSCDEmu%5D%0D%0A%22DiskCount%22%3Ddword%3A00000001%0D%0A%22FLAGS%22%3Ddword%3A00000005%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CViewSettings%5D%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CViewSettings%5CAudioCDRipperView%5D%0D%0A%22FileName%22%3D%220%2C311%22%0D%0A%22FileSize%22%3D%221%2C207%22%0D%0A%22FileType%22%3D%222%2C207%22%0D%0A%22FileModifyed%22%3D%223%2C311%22%0D%0A%22FilePath%22%3D%224%2C0%22%0D%0A%22FileLBA%22%3D%225%2C0%22%0D%0A%22TrackNumber%22%3D%220%2C139%22%0D%0A%22TrackTitle%22%3D%221%2C279%22%0D%0A%22TrackArtist%22%3D%222%2C279%22%0D%0A%22TrackDuration%22%3D%223%2C139%22%0D%0A%22TrackSize%22%3D%224%2C139%22%0D%0A%22TrackComment%22%3D%225%2C139%22%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CViewSettings%5CAudioCDView%5D%0D%0A%22FileName%22%3D%220%2C311%22%0D%0A%22FileSize%22%3D%221%2C207%22%0D%0A%22FileType%22%3D%222%2C207%22%0D%0A%22FileModifyed%22%3D%223%2C311%22%0D%0A%22FilePath%22%3D%224%2C0%22%0D%0A%22FileLBA%22%3D%225%2C0%22%0D%0A%22TrackNumber%22%3D%220%2C139%22%0D%0A%22TrackTitle%22%3D%221%2C279%22%0D%0A%22TrackArtist%22%3D%222%2C279%22%0D%0A%22TrackDuration%22%3D%223%2C139%22%0D%0A%22TrackPause%22%3D%224%2C139%22%0D%0A%22TrackSize%22%3D%225%2C139%22%0D%0A%22TrackPath%22%3D%226%2C279%22%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CViewSettings%5CAudioConverter%5D%0D%0A%22FileName%22%3D%220%2C311%22%0D%0A%22FileSize%22%3D%221%2C207%22%0D%0A%22FileType%22%3D%222%2C207%22%0D%0A%22FileModifyed%22%3D%223%2C311%22%0D%0A%22FilePath%22%3D%224%2C0%22%0D%0A%22FileLBA%22%3D%225%2C0%22%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CViewSettings%5CCDExtraView%5D%0D%0A%22FileName%22%3D%220%2C311%22%0D%0A%22FileSize%22%3D%221%2C207%22%0D%0A%22FileType%22%3D%222%2C207%22%0D%0A%22FileModifyed%22%3D%223%2C311%22%0D%0A%22FilePath%22%3D%224%2C0%22%0D%0A%22FileLBA%22%3D%225%2C0%22%0D%0A%22TrackNumber%22%3D%220%2C139%22%0D%0A%22TrackTitle%22%3D%221%2C279%22%0D%0A%22TrackArtist%22%3D%222%2C279%22%0D%0A%22TrackDuration%22%3D%223%2C139%22%0D%0A%22TrackPause%22%3D%224%2C139%22%0D%0A%22TrackSize%22%3D%225%2C139%22%0D%0A%22TrackPath%22%3D%226%2C279%22%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CViewSettings%5CDataDiscView%5D%0D%0A%22FileName%22%3D%220%2C311%22%0D%0A%22FileSize%22%3D%221%2C207%22%0D%0A%22FileType%22%3D%222%2C207%22%0D%0A%22FileModifyed%22%3D%223%2C311%22%0D%0A%22FilePath%22%3D%224%2C0%22%0D%0A%22FileLBA%22%3D%225%2C0%22%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CViewSettings%5CDVDVideoView%5D%0D%0A%22FileName%22%3D%220%2C311%22%0D%0A%22FileSize%22%3D%221%2C207%22%0D%0A%22FileType%22%3D%222%2C207%22%0D%0A%22FileModifyed%22%3D%223%2C311%22%0D%0A%22FilePath%22%3D%224%2C0%22%0D%0A%22FileLBA%22%3D%225%2C0%22%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CViewSettings%5CMixedModeCDView%5D%0D%0A%22FileName%22%3D%220%2C311%22%0D%0A%22FileSize%22%3D%221%2C207%22%0D%0A%22FileType%22%3D%222%2C207%22%0D%0A%22FileModifyed%22%3D%223%2C311%22%0D%0A%22FilePath%22%3D%224%2C0%22%0D%0A%22FileLBA%22%3D%225%2C0%22%0D%0A%22TrackNumber%22%3D%220%2C139%22%0D%0A%22TrackTitle%22%3D%221%2C279%22%0D%0A%22TrackArtist%22%3D%222%2C279%22%0D%0A%22TrackDuration%22%3D%223%2C139%22%0D%0A%22TrackPause%22%3D%224%2C139%22%0D%0A%22TrackSize%22%3D%225%2C139%22%0D%0A%22TrackPath%22%3D%226%2C279%22%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CViewSettings%5CSuperVideoCDView%5D%0D%0A%22FileName%22%3D%220%2C311%22%0D%0A%22FileSize%22%3D%221%2C207%22%0D%0A%22FileType%22%3D%222%2C207%22%0D%0A%22FileModifyed%22%3D%223%2C311%22%0D%0A%22FilePath%22%3D%224%2C0%22%0D%0A%22FileLBA%22%3D%225%2C0%22%0D%0A%22TrackNumber%22%3D%220%2C139%22%0D%0A%22TrackTitle%22%3D%221%2C279%22%0D%0A%22TrackDuration%22%3D%222%2C279%22%0D%0A%22TrackPause%22%3D%223%2C139%22%0D%0A%22TrackSize%22%3D%224%2C139%22%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CPowerISO%5CViewSettings%5CVideoCDView%5D%0D%0A%22FileName%22%3D%220%2C311%22%0D%0A%22FileSize%22%3D%221%2C207%22%0D%0A%22FileType%22%3D%222%2C207%22%0D%0A%22FileModifyed%22%3D%223%2C311%22%0D%0A%22FilePath%22%3D%224%2C0%22%0D%0A%22FileLBA%22%3D%225%2C0%22%0D%0A%22TrackNumber%22%3D%220%2C139%22%0D%0A%22TrackTitle%22%3D%221%2C279%22%0D%0A%22TrackDuration%22%3D%222%2C279%22%0D%0A%22TrackPause%22%3D%223%2C139%22%0D%0A%22TrackSize%22%3D%224%2C139%22%0D%0A%0D%0A&FirstLogonScriptType0=Reg&FirstLogonScript1=Windows+Registry+Editor+Version+5.00%0D%0A%0D%0A%5BHKEY_CURRENT_USER%5CSoftware%5CAnyBurnPro%5D%0D%0A%22Install_Dir_x64%22%3D%22C%3A%5C%5CProgram+Files%5C%5CAnyBurn+Pro%22%0D%0A%22Language%22%3Ddword%3A00000409%0D%0A%22CheckUpgrade%22%3Ddword%3A00004ff9%0D%0A%22USER%22%3Dhex%3A00%2C04%2C46%2C52%2C45%2C45%2C1f%2Ce7%2C48%2C39%2Cd5%2C2e%2Cdd%2C79%2C1f%2Cd5%2C40%2Ce7%2C59%2C24%2C2d%2C2f%0D%0A%0D%0A&FirstLogonScriptType1=Ps1&UserOnceScript0=%40echo+off%0D%0A%3A%3A+Auto-check+for+Administrator+privileges%0D%0Anet+session+%3Enul+2%3E%261%0D%0Aif+%25errorLevel%25+neq+0+%28%0D%0A++++echo+Requesting+Administrator+privileges+to+apply+registry+fixes...%0D%0A++++powershell+-Command+%22Start-Process+%27%25~f0%27+-Verb+RunAs%22%0D%0A++++exit+%2Fb%0D%0A%29%0D%0A%0D%0Aset+%22DATA_DIR%3D%25ProgramData%25%5CRoboController%22%0D%0A%0D%0Aecho+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0Aecho+Rewriting+Robocopy+Engine...%0D%0Aecho+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%0D%0Aif+not+exist+%22%25DATA_DIR%25%22+mkdir+%22%25DATA_DIR%25%22%0D%0Aicacls+%22%25DATA_DIR%25%22+%2Fgrant+Users%3A%28OI%29%28CI%29M+%2Ft+%2Fq+%3Enul%0D%0A%0D%0A%3A%3A+1.+Rebuild+the+Advanced+Helper+Script%0D%0A%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+%40echo+off%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+setlocal+enabledelayedexpansion%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+set+%22dest%3D%25%25~1%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+set+%22base_dir%3D%25%25ProgramData%25%25%5CRoboController%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+set+%22src_file%3D%21base_dir%21%5Csource.txt%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+set+%22move_flag%3D%21base_dir%21%5Cmove.flag%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+set+%22contents_flag%3D%21base_dir%21%5Ccontents.flag%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo.%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+if+not+exist+%22%21src_file%21%22+%28%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo++++++echo+Error%3A+No+source+copied%2Fmoved+yet.%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo++++++pause+%5E%26+exit%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+%29%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+set+%2Fp+src%3D%5E%3C%22%21src_file%21%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo.%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+%3A%3A+Strip+all+quotes%2C+trailing+spaces%2C+and+trailing+slashes%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+set+%22src%3D%21src%3A%22%3D%21%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+set+%22dest%3D%21dest%3A%22%3D%21%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+if+%22%21src%3A~-1%21%22%3D%3D%22+%22+set+%22src%3D%21src%3A~0%2C-1%21%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+if+%22%21src%3A~-1%21%22%3D%3D%22%5C%22+set+%22src%3D%21src%3A~0%2C-1%21%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+if+%22%21dest%3A~-1%21%22%3D%3D%22%5C%22+set+%22dest%3D%21dest%3A~0%2C-1%21%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo.%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+%3A%3A+Detect+if+Destination+is+a+File.+If+yes%2C+reroute+to+its+parent+folder.%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+for+%25%25%25%25A+in+%28%22%21dest%21%22%29+do+set+%22attr%3D%25%25%25%25~aA%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+if+%22%21attr%3A~0%2C1%21%22+neq+%22d%22+%28%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo++++++for+%25%25%25%25X+in+%28%22%21dest%21%22%29+do+set+%22dest%3D%25%25%25%25~dpX%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+%29%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+if+%22%21dest%3A~-1%21%22%3D%3D%22%5C%22+set+%22dest%3D%21dest%3A~0%2C-1%21%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo.%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+%3A%3A+Detect+if+Source+is+a+File+or+a+Folder%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+if+exist+%22%21src%21%5C*%22+%28%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo++++++%3A%3A+It+is+a+FOLDER.+Check+Paste+behavior+preference.%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo++++++if+exist+%22%21contents_flag%21%22+%28%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+++++++++++%3A%3A+Paste+Contents+Only%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+++++++++++set+%22rc_src%3D%21src%21%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+++++++++++set+%22rc_dest%3D%21dest%21%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo++++++%29+else+%28%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+++++++++++%3A%3A+Paste+Entire+Folder+%28Container%29%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+++++++++++for+%25%25%25%25D+in+%28%22%21src%21%22%29+do+set+%22folder_name%3D%25%25%25%25~nxD%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+++++++++++set+%22rc_src%3D%21src%21%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+++++++++++set+%22rc_dest%3D%21dest%21%5C%21folder_name%21%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo++++++%29%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo++++++set+%22rc_file%3D*.*%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo++++++set+%22dir_flag%3D%2FE%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+%29+else+%28%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo++++++%3A%3A+It+is+a+SINGLE+FILE.%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo++++++for+%25%25%25%25F+in+%28%22%21src%21%22%29+do+%28%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+++++++++++set+%22rc_src%3D%25%25%25%25~dpF%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+++++++++++set+%22rc_file%3D%25%25%25%25~nxF%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo++++++%29%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo++++++if+%22%21rc_src%3A~-1%21%22%3D%3D%22%5C%22+set+%22rc_src%3D%21rc_src%3A~0%2C-1%21%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo++++++set+%22rc_dest%3D%21dest%21%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo++++++set+%22dir_flag%3D%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+%29%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo.%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+echo+%5BROBOCOPY+SYNC+ENGINE%5D%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+echo+Copying+From+%3A+%22%21rc_src%21%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+echo+Target+Item++%3A+%22%21rc_file%21%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+echo+Pasting+To+++%3A+%22%21rc_dest%21%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+echo+%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D-%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo.%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+if+exist+%22%21move_flag%21%22+%28%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo++++++echo+%5BMODE%3A+MOVE%5D%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo++++++robocopy+%22%21rc_src%21%22+%22%21rc_dest%21%22+%22%21rc_file%21%22+%21dir_flag%21+%2FETA+%2FMT%3A8+%2FR%3A3+%2FW%3A5+%2FMOVE%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+%29+else+%28%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo++++++echo+%5BMODE%3A+COPY%5D%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo++++++robocopy+%22%21rc_src%21%22+%22%21rc_dest%21%22+%22%21rc_file%21%22+%21dir_flag%21+%2FETA+%2FMT%3A8+%2FR%3A3+%2FW%3A5%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+%29%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo.%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+del+%22%21move_flag%21%22+2%5E%3Enul%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+del+%22%21contents_flag%21%22+2%5E%3Enul%0D%0A%3E%3E+%22%25DATA_DIR%25%5CRoboAction.bat%22+echo+pause%0D%0A%0D%0Aecho+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0Aecho+Building+Class-Based+Cascading+Menus...%0D%0Aecho+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%0D%0A%3A%3A+%2D%2D-+1.+Aggressive+Cleanup+of+Old+Broken+Menus+%2D%2D-%0D%0Aset+%22BKG%3DHKEY_CLASSES_ROOT%5CDirectory%5CBackground%5Cshell%22%0D%0Aset+%22FLD%3DHKEY_CLASSES_ROOT%5CDirectory%5Cshell%22%0D%0Aset+%22FIL%3DHKEY_CLASSES_ROOT%5C*%5Cshell%22%0D%0A%0D%0Afor+%25%25k+in+%28%22%25BKG%25%22+%22%25FLD%25%22+%22%25FIL%25%22%29+do+%28%0D%0A++++reg+delete+%22%25%25~k%5CRC_Menu%22+%2Ff+%3Enul+2%3E%261%0D%0A++++reg+delete+%22%25%25~k%5CRoboContext%22+%2Ff+%3Enul+2%3E%261%0D%0A++++reg+delete+%22%25%25~k%5CRobocopySync%22+%2Ff+%3Enul+2%3E%261%0D%0A%29%0D%0Areg+delete+%22HKEY_CLASSES_ROOT%5CRoboClass_Bkg%22+%2Ff+%3Enul+2%3E%261%0D%0Areg+delete+%22HKEY_CLASSES_ROOT%5CRoboClass_Fld%22+%2Ff+%3Enul+2%3E%261%0D%0Areg+delete+%22HKEY_CLASSES_ROOT%5CRoboClass_Fil%22+%2Ff+%3Enul+2%3E%261%0D%0A%0D%0A%3A%3A+%2D%2D-+2.+Create+the+External+Target+Classes+%2D%2D-%0D%0A%3A%3A+This+isolates+the+sub-menus+deep+in+the+registry+so+Windows+doesn%27t+trip+on+them%0D%0Aset+%22CBKG%3DHKEY_CLASSES_ROOT%5CRoboClass_Bkg%5Cshell%22%0D%0Aset+%22CFLD%3DHKEY_CLASSES_ROOT%5CRoboClass_Fld%5Cshell%22%0D%0Aset+%22CFIL%3DHKEY_CLASSES_ROOT%5CRoboClass_Fil%5Cshell%22%0D%0A%0D%0A%3A%3A+Populate+Class+1%3A+Backgrounds+%28Uses+%25%25V%2C+has+all+options%29%0D%0Areg+add+%22%25CBKG%25%5C1_Copy%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Copy%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CBKG%25%5C1_Copy%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22cmd.exe+%2Fc+echo+%25%25V%3E%5C%22%25DATA_DIR%25%5Csource.txt%5C%22+%26%26+del+%5C%22%25DATA_DIR%25%5Cmove.flag%5C%22+2%3Enul%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CBKG%25%5C2_Move%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Move%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CBKG%25%5C2_Move%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22cmd.exe+%2Fc+echo+%25%25V%3E%5C%22%25DATA_DIR%25%5Csource.txt%5C%22+%26%26+type+nul+%3E%5C%22%25DATA_DIR%25%5Cmove.flag%5C%22%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CBKG%25%5C3_Paste%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Paste%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CBKG%25%5C3_Paste%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22cmd.exe+%2Fc+del+%5C%22%25DATA_DIR%25%5Ccontents.flag%5C%22+2%3Enul+%26%26+%5C%22%25DATA_DIR%25%5CRoboAction.bat%5C%22+%5C%22%25%25V%5C%22%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CBKG%25%5C4_PasteContents%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Paste+Contents+Only%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CBKG%25%5C4_PasteContents%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22cmd.exe+%2Fc+type+nul+%3E%5C%22%25DATA_DIR%25%5Ccontents.flag%5C%22+%26%26+%5C%22%25DATA_DIR%25%5CRoboAction.bat%5C%22+%5C%22%25%25V%5C%22%22+%2Ff+%3Enul%0D%0A%0D%0A%3A%3A+Populate+Class+2%3A+Folders+%28Uses+%25%251%2C+has+all+options%29%0D%0Areg+add+%22%25CFLD%25%5C1_Copy%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Copy%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CFLD%25%5C1_Copy%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22cmd.exe+%2Fc+echo+%25%251%3E%5C%22%25DATA_DIR%25%5Csource.txt%5C%22+%26%26+del+%5C%22%25DATA_DIR%25%5Cmove.flag%5C%22+2%3Enul%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CFLD%25%5C2_Move%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Move%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CFLD%25%5C2_Move%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22cmd.exe+%2Fc+echo+%25%251%3E%5C%22%25DATA_DIR%25%5Csource.txt%5C%22+%26%26+type+nul+%3E%5C%22%25DATA_DIR%25%5Cmove.flag%5C%22%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CFLD%25%5C3_Paste%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Paste%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CFLD%25%5C3_Paste%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22cmd.exe+%2Fc+del+%5C%22%25DATA_DIR%25%5Ccontents.flag%5C%22+2%3Enul+%26%26+%5C%22%25DATA_DIR%25%5CRoboAction.bat%5C%22+%5C%22%25%251%5C%22%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CFLD%25%5C4_PasteContents%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Paste+Contents+Only%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CFLD%25%5C4_PasteContents%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22cmd.exe+%2Fc+type+nul+%3E%5C%22%25DATA_DIR%25%5Ccontents.flag%5C%22+%26%26+%5C%22%25DATA_DIR%25%5CRoboAction.bat%5C%22+%5C%22%25%251%5C%22%22+%2Ff+%3Enul%0D%0A%0D%0A%3A%3A+Populate+Class+3%3A+Files+%28Uses+%25%251%2C+no+Paste+Contents%29%0D%0Areg+add+%22%25CFIL%25%5C1_Copy%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Copy%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CFIL%25%5C1_Copy%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22cmd.exe+%2Fc+echo+%25%251%3E%5C%22%25DATA_DIR%25%5Csource.txt%5C%22+%26%26+del+%5C%22%25DATA_DIR%25%5Cmove.flag%5C%22+2%3Enul%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CFIL%25%5C2_Move%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Move%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CFIL%25%5C2_Move%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22cmd.exe+%2Fc+echo+%25%251%3E%5C%22%25DATA_DIR%25%5Csource.txt%5C%22+%26%26+type+nul+%3E%5C%22%25DATA_DIR%25%5Cmove.flag%5C%22%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CFIL%25%5C3_Paste%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Paste%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CFIL%25%5C3_Paste%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22cmd.exe+%2Fc+del+%5C%22%25DATA_DIR%25%5Ccontents.flag%5C%22+2%3Enul+%26%26+%5C%22%25DATA_DIR%25%5CRoboAction.bat%5C%22+%5C%22%25%251%5C%22%22+%2Ff+%3Enul%0D%0A%0D%0A%3A%3A+%2D%2D-+3.+Link+the+Context+Menus+to+the+Classes+%2D%2D-%0D%0Aset+%22LINK_BKG%3D%25BKG%25%5CRobocopySync%22%0D%0Aset+%22LINK_FLD%3D%25FLD%25%5CRobocopySync%22%0D%0Aset+%22LINK_FIL%3D%25FIL%25%5CRobocopySync%22%0D%0A%0D%0Afor+%25%25k+in+%28%22%25LINK_BKG%25%22+%22%25LINK_FLD%25%22+%22%25LINK_FIL%25%22%29+do+%28%0D%0A++++reg+add+%22%25%25~k%22+%2Fv+MUIVerb+%2Ft+REG_SZ+%2Fd+%22Robocopy+Tools%22+%2Ff+%3Enul%0D%0A++++reg+add+%22%25%25~k%22+%2Fv+Icon+%2Ft+REG_SZ+%2Fd+%22imageres.dll%2C-5302%22+%2Ff+%3Enul%0D%0A%29%0D%0A%0D%0A%3A%3A+This+tells+Windows+%22Go+look+in+this+background+class+to+find+the+drop-down+list%22%0D%0Areg+add+%22%25LINK_BKG%25%22+%2Fv+ExtendedSubCommandsKey+%2Ft+REG_SZ+%2Fd+%22RoboClass_Bkg%22+%2Ff+%3Enul%0D%0Areg+add+%22%25LINK_FLD%25%22+%2Fv+ExtendedSubCommandsKey+%2Ft+REG_SZ+%2Fd+%22RoboClass_Fld%22+%2Ff+%3Enul%0D%0Areg+add+%22%25LINK_FIL%25%22+%2Fv+ExtendedSubCommandsKey+%2Ft+REG_SZ+%2Fd+%22RoboClass_Fil%22+%2Ff+%3Enul%0D%0A%0D%0Aecho+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0Aecho+Setup+Complete%21+Cascading+classes+successfully+mapped.%0D%0Aecho+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D&UserOnceScriptType0=Cmd&UserOnceScript1=%40echo+off%0D%0Asetlocal+enabledelayedexpansion%0D%0A%0D%0A%3A%3A+Auto-check+for+Administrator+privileges+for+the+installer+script%0D%0Anet+session+%3Enul+2%3E%261%0D%0Aif+%25errorLevel%25+neq+0+%28%0D%0A++++echo+Requesting+Administrator+privileges+to+apply+registry+configurations...%0D%0A++++powershell+-Command+%22Start-Process+%27%25~f0%27+-Verb+RunAs%22%0D%0A++++exit+%2Fb%0D%0A%29%0D%0A%0D%0Aecho+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0Aecho+Setting+up+Streamlined+System+Maintenance+Hub...%0D%0Aecho+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%0D%0Aset+%22DATA_DIR%3D%25ProgramData%25%5CSystemCleaner%22%0D%0Aif+not+exist+%22%25DATA_DIR%25%22+mkdir+%22%25DATA_DIR%25%22%0D%0Aicacls+%22%25DATA_DIR%25%22+%2Fgrant+Users%3A%28OI%29%28CI%29R+%2Ft+%2Fq+%3Enul%0D%0A%0D%0A%3A%3A+%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D-%0D%0A%3A%3A+1.+Rebuild+the+Universal+Cleanup+Engine+Batch+File%0D%0A%3A%3A+%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D-%0D%0A%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo+%40echo+off%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo+echo+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo+echo+System+Cleanup+Engine%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo+echo+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo+net+session+%5E%3Enul+2%5E%3E%5E%261%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo+if+%25%25errorLevel%25%25+equ+0+%28%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++echo+%5BAdmin+Privileges+Detected%5D+Cleaning+system+locations...%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++echo.%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++echo+1.+Clearing+Windows+Temp...%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++del+%2Fs+%2Ff+%2Fq+%22C%3A%5CWindows%5CTemp%5C*.*%22+2%5E%3Enul%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++for+%2FD+%25%25%25%25p+in+%28%22C%3A%5CWindows%5CTemp%5C*%22%29+do+rmdir+%2FS+%2FQ+%22%25%25%25%25p%22+2%5E%3Enul%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo.%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++echo+2.+Clearing+User+Temp...%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++del+%2Fs+%2Ff+%2Fq+%22%25%25temp%25%25%5C*.*%22+2%5E%3Enul%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++for+%2FD+%25%25%25%25p+in+%28%22%25%25temp%25%25%5C*%22%29+do+rmdir+%2FS+%2FQ+%22%25%25%25%25p%22+2%5E%3Enul%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo.%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++echo+3.+Clearing+Prefetch...%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++del+%2Fs+%2Ff+%2Fq+%22C%3A%5CWindows%5CPrefetch%5C*.*%22+2%5E%3Enul%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo.%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++echo+4.+Clearing+Windows+Update+Cache...%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++net+stop+wuauserv+%5E%3Enul+2%5E%3E%5E%261%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++del+%2Fs+%2Ff+%2Fq+%22C%3A%5CWindows%5CSoftwareDistribution%5CDownload%5C*.*%22+2%5E%3Enul%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++for+%2FD+%25%25%25%25p+in+%28%22C%3A%5CWindows%5CSoftwareDistribution%5CDownload%5C*%22%29+do+rmdir+%2FS+%2FQ+%22%25%25%25%25p%22+2%5E%3Enul%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++net+start+wuauserv+%5E%3Enul+2%5E%3E%5E%261%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo.%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++echo+5.+Emptying+System+Recycle+Bin...%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++rd+%2Fs+%2Fq+%25%25systemdrive%25%25%5C%24Recycle.bin+2%5E%3Enul%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo+%29+else+%28%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++echo+%5BStandard+User+Mode%5D+Cleaning+local+files+only...%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++echo.%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++echo+1.+Clearing+User+Temp...%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++del+%2Fs+%2Ff+%2Fq+%22%25%25temp%25%25%5C*.*%22+2%5E%3Enul%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++for+%2FD+%25%25%25%25p+in+%28%22%25%25temp%25%25%5C*%22%29+do+rmdir+%2FS+%2FQ+%22%25%25%25%25p%22+2%5E%3Enul%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo.%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++echo+2.+Emptying+User+Recycle+Bin...%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo++++++powershell+-NoProfile+-Command+%22Clear-RecycleBin+-Force+-ErrorAction+SilentlyContinue%22%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo+%29%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo+echo.%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo+echo+Cleanup+Complete%21%0D%0A%3E%3E+%22%25DATA_DIR%25%5CTempCleaner.bat%22+echo+timeout+%2Ft+3+%5E%3Enul%0D%0A%0D%0A%3A%3A+%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D-%0D%0A%3A%3A+2.+Registry+Cascading+Architecture+Engine%0D%0A%3A%3A+%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D%2D-%0D%0Aset+%22BKG_BASE%3DHKCU%5CSoftware%5CClasses%5CDirectory%5CBackground%5Cshell%22%0D%0Aset+%22HUB_KEY%3D%25BKG_BASE%25%5CMaintenanceHub%22%0D%0Aset+%22DB%3DHKLM%5CSoftware%5CMicrosoft%5CWindows%5CCurrentVersion%5CExplorer%5CCommandStore%5Cshell%22%0D%0A%0D%0A%3A%3A+Clear+parent+menu+key+to+deploy+fresh+structure+smoothly%0D%0Areg+delete+%22%25HUB_KEY%25%22+%2Ff+%3Enul+2%3E%261%0D%0A%0D%0A%3A%3A+Create+Parent+Context+Menu%0D%0Areg+add+%22%25HUB_KEY%25%22+%2Fv+%22MUIVerb%22+%2Ft+REG_SZ+%2Fd+%22System+Maintenance+Hub%22+%2Ff+%3Enul%0D%0Areg+add+%22%25HUB_KEY%25%22+%2Fv+%22Icon%22+%2Ft+REG_SZ+%2Fd+%22shell32.dll%2C239%22+%2Ff+%3Enul%0D%0A%3A%3A+FIXED%3A+Escaped+the+pipe+character+%28%5E%7C%29+so+the+script+doesn%27t+break+here%0D%0Areg+add+%22%25HUB_KEY%25%22+%2Fv+%22SubCommands%22+%2Ft+REG_SZ+%2Fd+%22CleanTemp%3BFlushDNS%3BEmptyBin%3BRestartExplorer%3BKillFrozen%3B%5E%7C%3BSysShutdown%3BSysRestart%22+%2Ff+%3Enul%0D%0A%0D%0A%3A%3A+%2D%2D-+Build+Subcommands+Database+Entries+%2D%2D-%0D%0A%0D%0A%3A%3A+1.+Clean+Temp+Files%0D%0Areg+add+%22%25DB%25%5CCleanTemp%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Clean+Temporary+Files%22+%2Ff+%3Enul%0D%0Areg+add+%22%25DB%25%5CCleanTemp%22+%2Fv+%22Icon%22+%2Ft+REG_SZ+%2Fd+%22cleanmgr.exe%2C0%22+%2Ff+%3Enul%0D%0Areg+add+%22%25DB%25%5CCleanTemp%22+%2Fv+%22HasLUAShield%22+%2Ft+REG_SZ+%2Fd+%22%22+%2Ff+%3Enul%0D%0Areg+add+%22%25DB%25%5CCleanTemp%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22powershell+-WindowStyle+Hidden+-Command+%5C%22Start-Process+cmd+-ArgumentList+%27%2Fc+%5C%22%25DATA_DIR%25%5CTempCleaner.bat%5C%22%27+-Verb+RunAs%5C%22%22+%2Ff+%3Enul%0D%0A%0D%0A%3A%3A+2.+Flush+DNS%0D%0Areg+add+%22%25DB%25%5CFlushDNS%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Flush+%26+Reset+Network+DNS%22+%2Ff+%3Enul%0D%0Areg+add+%22%25DB%25%5CFlushDNS%22+%2Fv+%22Icon%22+%2Ft+REG_SZ+%2Fd+%22netcenter.dll%2C63%22+%2Ff+%3Enul%0D%0Areg+add+%22%25DB%25%5CFlushDNS%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22cmd.exe+%2Fc+echo+Resetting+Connections...+%26%26+ipconfig+%2Fflushdns+%26%26+netsh+int+ip+reset+%26%26+echo+DNS+Flushed%21+%26%26+timeout+%2Ft+2%22+%2Ff+%3Enul%0D%0A%0D%0A%3A%3A+3.+Recycle+Bin%0D%0Areg+add+%22%25DB%25%5CEmptyBin%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Empty+Recycle+Bin%22+%2Ff+%3Enul%0D%0Areg+add+%22%25DB%25%5CEmptyBin%22+%2Fv+%22Icon%22+%2Ft+REG_SZ+%2Fd+%22shell32.dll%2C31%22+%2Ff+%3Enul%0D%0Areg+add+%22%25DB%25%5CEmptyBin%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22powershell+-NoProfile+-Command+%5C%22Clear-RecycleBin+-Force+-ErrorAction+SilentlyContinue%5C%22%22+%2Ff+%3Enul%0D%0A%0D%0A%3A%3A+4.+Restart+Explorer%0D%0Areg+add+%22%25DB%25%5CRestartExplorer%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Restart+Windows+Explorer+UI%22+%2Ff+%3Enul%0D%0Areg+add+%22%25DB%25%5CRestartExplorer%22+%2Fv+%22Icon%22+%2Ft+REG_SZ+%2Fd+%22explorer.exe%2C0%22+%2Ff+%3Enul%0D%0Areg+add+%22%25DB%25%5CRestartExplorer%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22cmd.exe+%2Fc+taskkill+%2Ff+%2Fim+explorer.exe+%26%26+start+explorer.exe%22+%2Ff+%3Enul%0D%0A%0D%0A%3A%3A+5.+Kill+Frozen+Tasks%0D%0Areg+add+%22%25DB%25%5CKillFrozen%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Force+Kill+Unresponsive+Apps%22+%2Ff+%3Enul%0D%0Areg+add+%22%25DB%25%5CKillFrozen%22+%2Fv+%22Icon%22+%2Ft+REG_SZ+%2Fd+%22taskmgr.exe%2C0%22+%2Ff+%3Enul%0D%0Areg+add+%22%25DB%25%5CKillFrozen%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22cmd.exe+%2Fc+taskkill+%2Ff+%2Ffi+%5C%22status+eq+not+responding%5C%22+%26%26+echo+Frozen+tasks+terminated%21+%26%26+timeout+%2Ft+2%22+%2Ff+%3Enul%0D%0A%0D%0A%3A%3A+6.+Power%3A+Shutdown%0D%0Areg+add+%22%25DB%25%5CSysShutdown%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Shutdown+System%22+%2Ff+%3Enul%0D%0Areg+add+%22%25DB%25%5CSysShutdown%22+%2Fv+%22Icon%22+%2Ft+REG_SZ+%2Fd+%22shell32.dll%2C27%22+%2Ff+%3Enul%0D%0Areg+add+%22%25DB%25%5CSysShutdown%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22shutdown.exe+%2Fs+%2Ft+0+%2Ff%22+%2Ff+%3Enul%0D%0A%0D%0A%3A%3A+7.+Power%3A+Restart%0D%0Areg+add+%22%25DB%25%5CSysRestart%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Restart+System%22+%2Ff+%3Enul%0D%0Areg+add+%22%25DB%25%5CSysRestart%22+%2Fv+%22Icon%22+%2Ft+REG_SZ+%2Fd+%22shell32.dll%2C238%22+%2Ff+%3Enul%0D%0Areg+add+%22%25DB%25%5CSysRestart%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22shutdown.exe+%2Fr+%2Ft+0+%2Ff%22+%2Ff+%3Enul%0D%0A%0D%0Aecho+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0Aecho+Implementation+Complete%21+%0D%0Aecho+Right-click+the+desktop+background+to+run+your+menu.%0D%0Aecho+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D&UserOnceScriptType1=Cmd&UserOnceScript2=%40echo+off%0D%0Aecho+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0Aecho+Initializing+Master+Context+Menu+Setup...%0D%0Aecho+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%0D%0A%3A%3A+Check+for+administrative+privileges+silently%0D%0Anet+session+%3Enul+2%3E%261%0D%0Aif+%25errorLevel%25+equ+0+%28%0D%0A++++echo+Running+as+Administrator.+Installing+for+ALL+users.%0D%0A++++set+%22IS_ADMIN%3D1%22%0D%0A++++set+%22REG_PATH%3DHKEY_LOCAL_MACHINE%5CSoftware%5CClasses%5CDirectory%5CBackground%5Cshell%22%0D%0A++++set+%22CS_PATH%3DHKEY_LOCAL_MACHINE%5CSOFTWARE%5CMicrosoft%5CWindows%5CCurrentVersion%5CExplorer%5CCommandStore%5Cshell%22%0D%0A++++set+%22VBS_DIR%3D%25ProgramData%25%5CContextMenuScripts%22%0D%0A%29+else+%28%0D%0A++++echo+Running+as+Standard+User.+Installing+for+CURRENT+user+only.%0D%0A++++set+%22IS_ADMIN%3D0%22%0D%0A++++set+%22REG_PATH%3DHKEY_CURRENT_USER%5CSoftware%5CClasses%5CDirectory%5CBackground%5Cshell%22%0D%0A++++set+%22CS_PATH%3DHKEY_CURRENT_USER%5CSOFTWARE%5CMicrosoft%5CWindows%5CCurrentVersion%5CExplorer%5CCommandStore%5Cshell%22%0D%0A++++set+%22VBS_DIR%3D%25LOCALAPPDATA%25%5CContextMenuScripts%22%0D%0A%29%0D%0A%0D%0A%3A%3A+Define+paths+for+dynamic+cleanup%0D%0Aset+%22USER_REG%3DHKEY_CURRENT_USER%5CSoftware%5CClasses%5CDirectory%5CBackground%5Cshell%22%0D%0Aset+%22USER_CS%3DHKEY_CURRENT_USER%5CSOFTWARE%5CMicrosoft%5CWindows%5CCurrentVersion%5CExplorer%5CCommandStore%5Cshell%22%0D%0A%0D%0Aecho.%0D%0Aecho+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0Aecho+1.+Generating+VBScript+Utility+%28Files+and+Folders%29...%0D%0Aecho+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%0D%0Aif+not+exist+%22%25VBS_DIR%25%22+mkdir+%22%25VBS_DIR%25%22%0D%0Aset+%22VBSFile%3D%25VBS_DIR%25%5CCreateSmartFile.vbs%22%0D%0A%0D%0A%3E+%22%25VBSFile%25%22+echo+Set+objArgs+%3D+WScript.Arguments%0D%0A%3E%3E+%22%25VBSFile%25%22+echo+If+objArgs.Count+%5E%3C+3+Then+WScript.Quit%0D%0A%3E%3E+%22%25VBSFile%25%22+echo+targetFolder+%3D+objArgs%280%29%0D%0A%3E%3E+%22%25VBSFile%25%22+echo+fileExt+%3D+objArgs%281%29%0D%0A%3E%3E+%22%25VBSFile%25%22+echo+defaultName+%3D+objArgs%282%29%0D%0A%3E%3E+%22%25VBSFile%25%22+echo+If+fileExt+%3D+%22FOLDER%22+Then%0D%0A%3E%3E+%22%25VBSFile%25%22+echo+++++itemName+%3D+InputBox%28%22Enter+folder+name%3A%22%2C+%22Create+New+Folder%22%2C+defaultName%29%0D%0A%3E%3E+%22%25VBSFile%25%22+echo+++++If+Trim%28itemName%29+%3D+%22%22+Then+WScript.Quit%0D%0A%3E%3E+%22%25VBSFile%25%22+echo+++++Set+fso+%3D+CreateObject%28%22Scripting.FileSystemObject%22%29%0D%0A%3E%3E+%22%25VBSFile%25%22+echo+++++finalPath+%3D+fso.BuildPath%28targetFolder%2C+itemName%29%0D%0A%3E%3E+%22%25VBSFile%25%22+echo+++++If+Not+fso.FolderExists%28finalPath%29+Then+fso.CreateFolder%28finalPath%29%0D%0A%3E%3E+%22%25VBSFile%25%22+echo+Else%0D%0A%3E%3E+%22%25VBSFile%25%22+echo+++++itemName+%3D+InputBox%28%22Enter+filename+%28without+extension%29%3A%22%2C+%22Create+New+%22+%5E%26+UCase%28fileExt%29+%5E%26+%22+File%22%2C+defaultName%29%0D%0A%3E%3E+%22%25VBSFile%25%22+echo+++++If+Trim%28itemName%29+%3D+%22%22+Then+WScript.Quit%0D%0A%3E%3E+%22%25VBSFile%25%22+echo+++++Set+fso+%3D+CreateObject%28%22Scripting.FileSystemObject%22%29%0D%0A%3E%3E+%22%25VBSFile%25%22+echo+++++finalPath+%3D+fso.BuildPath%28targetFolder%2C+itemName+%5E%26+fileExt%29%0D%0A%3E%3E+%22%25VBSFile%25%22+echo+++++Set+newFile+%3D+fso.CreateTextFile%28finalPath%2C+True%29%0D%0A%3E%3E+%22%25VBSFile%25%22+echo+++++newFile.Close%0D%0A%3E%3E+%22%25VBSFile%25%22+echo+End+If%0D%0A%0D%0Aecho+VBScript+created+safely+at%3A+%25VBSFile%25%0D%0A%0D%0Aecho.%0D%0Aecho+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0Aecho+2.+Creating+%22Terminal+Options%22+Dropdown+Menu...%0D%0Aecho+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%0D%0Areg+delete+%22%25REG_PATH%25%5COpenCMDHere%22+%2Ff+%3Enul+2%3E%261%0D%0Areg+delete+%22%25REG_PATH%25%5COpenPSHere%22+%2Ff+%3Enul+2%3E%261%0D%0Areg+delete+%22%25REG_PATH%25%5COpenCMDAdminHere%22+%2Ff+%3Enul+2%3E%261%0D%0Areg+delete+%22%25REG_PATH%25%5COpenPSAdminHere%22+%2Ff+%3Enul+2%3E%261%0D%0A%0D%0Areg+add+%22%25REG_PATH%25%5CTerminalMenu%22+%2Fv+%22MUIVerb%22+%2Ft+REG_SZ+%2Fd+%22Terminal+Options%22+%2Ff+%3Enul%0D%0Areg+add+%22%25REG_PATH%25%5CTerminalMenu%22+%2Fv+%22Icon%22+%2Ft+REG_SZ+%2Fd+%22cmd.exe%22+%2Ff+%3Enul%0D%0A%0D%0Aif+%22%25IS_ADMIN%25%22%3D%3D%221%22+%28%0D%0A++++reg+add+%22%25REG_PATH%25%5CTerminalMenu%22+%2Fv+%22SubCommands%22+%2Ft+REG_SZ+%2Fd+%22OpenCMD%3BOpenPS%3BOpenCMDAdmin%3BOpenPSAdmin%22+%2Ff+%3Enul%0D%0A%29+else+%28%0D%0A++++reg+add+%22%25REG_PATH%25%5CTerminalMenu%22+%2Fv+%22SubCommands%22+%2Ft+REG_SZ+%2Fd+%22OpenCMD%3BOpenPS%22+%2Ff+%3Enul%0D%0A%29%0D%0A%0D%0Areg+add+%22%25CS_PATH%25%5COpenCMD%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Open+CMD+here%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5COpenCMD%22+%2Fv+%22Icon%22+%2Ft+REG_SZ+%2Fd+%22cmd.exe%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5COpenCMD%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22cmd.exe+%2Fs+%2Fk+pushd+%5C%22%25%25V%5C%22%22+%2Ff+%3Enul%0D%0A%0D%0Areg+add+%22%25CS_PATH%25%5COpenPS%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Open+PowerShell+here%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5COpenPS%22+%2Fv+%22Icon%22+%2Ft+REG_SZ+%2Fd+%22powershell.exe%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5COpenPS%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22powershell.exe+-NoExit+-Command+%5C%22Set-Location+%27%25%25V%27%5C%22%22+%2Ff+%3Enul%0D%0A%0D%0Aif+%22%25IS_ADMIN%25%22%3D%3D%221%22+%28%0D%0A++++reg+add+%22%25CS_PATH%25%5COpenCMDAdmin%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Open+CMD+%28Admin%29%22+%2Ff+%3Enul%0D%0A++++reg+add+%22%25CS_PATH%25%5COpenCMDAdmin%22+%2Fv+%22Icon%22+%2Ft+REG_SZ+%2Fd+%22cmd.exe%22+%2Ff+%3Enul%0D%0A++++reg+add+%22%25CS_PATH%25%5COpenCMDAdmin%22+%2Fv+%22HasLUAShield%22+%2Ft+REG_SZ+%2Fd+%22%22+%2Ff+%3Enul%0D%0A++++reg+add+%22%25CS_PATH%25%5COpenCMDAdmin%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22powershell.exe+-WindowStyle+Hidden+-NoProfile+-Command+%5C%22Start-Process+-Verb+RunAs+cmd.exe%5C%22%22+%2Ff+%3Enul%0D%0A%0D%0A++++reg+add+%22%25CS_PATH%25%5COpenPSAdmin%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Open+PowerShell+%28Admin%29%22+%2Ff+%3Enul%0D%0A++++reg+add+%22%25CS_PATH%25%5COpenPSAdmin%22+%2Fv+%22Icon%22+%2Ft+REG_SZ+%2Fd+%22powershell.exe%22+%2Ff+%3Enul%0D%0A++++reg+add+%22%25CS_PATH%25%5COpenPSAdmin%22+%2Fv+%22HasLUAShield%22+%2Ft+REG_SZ+%2Fd+%22%22+%2Ff+%3Enul%0D%0A++++reg+add+%22%25CS_PATH%25%5COpenPSAdmin%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22powershell.exe+-WindowStyle+Hidden+-NoProfile+-Command+%5C%22Start-Process+-Verb+RunAs+powershell.exe%5C%22%22+%2Ff+%3Enul%0D%0A%29%0D%0A%0D%0Aecho.%0D%0Aecho+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0Aecho+3.+Creating+%22Create+New...%22+Dropdown+Menu...%0D%0Aecho+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%0D%0Areg+add+%22%25REG_PATH%25%5CCreateNewFileMenu%22+%2Fv+%22MUIVerb%22+%2Ft+REG_SZ+%2Fd+%22Create+New...%22+%2Ff+%3Enul%0D%0Areg+add+%22%25REG_PATH%25%5CCreateNewFileMenu%22+%2Fv+%22Icon%22+%2Ft+REG_SZ+%2Fd+%22imageres.dll%2C-2%22+%2Ff+%3Enul%0D%0Areg+add+%22%25REG_PATH%25%5CCreateNewFileMenu%22+%2Fv+%22SubCommands%22+%2Ft+REG_SZ+%2Fd+%22CreateNewFolder%3BCreateNewTxt%3BCreateNewBat%3BCreateNewCmd%3BCreateNewPs1%3BCreateNewReg%3BCreateNewXml%3BCreateNewIni%3BCreateNewJson%3BCreateNewMd%3BCreateNewCsv%3BCreateNewHtml%22+%2Ff+%3Enul%0D%0A%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewFolder%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Folder%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewFolder%22+%2Fv+%22Icon%22+%2Ft+REG_SZ+%2Fd+%22imageres.dll%2C-113%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewFolder%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22wscript.exe+%5C%22%25VBSFile%25%5C%22+%5C%22%25%25V%5C%22+%5C%22FOLDER%5C%22+%5C%22New+Folder%5C%22%22+%2Ff+%3Enul%0D%0A%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewTxt%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Text+Document+%28.txt%29%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewTxt%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22wscript.exe+%5C%22%25VBSFile%25%5C%22+%5C%22%25%25V%5C%22+%5C%22.txt%5C%22+%5C%22New+Text+Document%5C%22%22+%2Ff+%3Enul%0D%0A%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewBat%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Batch+Script+%28.bat%29%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewBat%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22wscript.exe+%5C%22%25VBSFile%25%5C%22+%5C%22%25%25V%5C%22+%5C%22.bat%5C%22+%5C%22New+Script%5C%22%22+%2Ff+%3Enul%0D%0A%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewCmd%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Command+Script+%28.cmd%29%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewCmd%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22wscript.exe+%5C%22%25VBSFile%25%5C%22+%5C%22%25%25V%5C%22+%5C%22.cmd%5C%22+%5C%22New+Script%5C%22%22+%2Ff+%3Enul%0D%0A%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewPs1%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22PowerShell+Script+%28.ps1%29%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewPs1%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22wscript.exe+%5C%22%25VBSFile%25%5C%22+%5C%22%25%25V%5C%22+%5C%22.ps1%5C%22+%5C%22New+Script%5C%22%22+%2Ff+%3Enul%0D%0A%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewReg%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Registry+File+%28.reg%29%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewReg%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22wscript.exe+%5C%22%25VBSFile%25%5C%22+%5C%22%25%25V%5C%22+%5C%22.reg%5C%22+%5C%22New+Registry+File%5C%22%22+%2Ff+%3Enul%0D%0A%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewXml%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22XML+Document+%28.xml%29%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewXml%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22wscript.exe+%5C%22%25VBSFile%25%5C%22+%5C%22%25%25V%5C%22+%5C%22.xml%5C%22+%5C%22New+XML+Document%5C%22%22+%2Ff+%3Enul%0D%0A%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewIni%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Configuration+File+%28.ini%29%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewIni%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22wscript.exe+%5C%22%25VBSFile%25%5C%22+%5C%22%25%25V%5C%22+%5C%22.ini%5C%22+%5C%22New+Config+File%5C%22%22+%2Ff+%3Enul%0D%0A%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewJson%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22JSON+File+%28.json%29%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewJson%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22wscript.exe+%5C%22%25VBSFile%25%5C%22+%5C%22%25%25V%5C%22+%5C%22.json%5C%22+%5C%22New+JSON+File%5C%22%22+%2Ff+%3Enul%0D%0A%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewMd%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Markdown+File+%28.md%29%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewMd%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22wscript.exe+%5C%22%25VBSFile%25%5C%22+%5C%22%25%25V%5C%22+%5C%22.md%5C%22+%5C%22New+Markdown+File%5C%22%22+%2Ff+%3Enul%0D%0A%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewCsv%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22CSV+File+%28.csv%29%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewCsv%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22wscript.exe+%5C%22%25VBSFile%25%5C%22+%5C%22%25%25V%5C%22+%5C%22.csv%5C%22+%5C%22New+CSV+File%5C%22%22+%2Ff+%3Enul%0D%0A%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewHtml%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22HTML+Document+%28.html%29%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CCreateNewHtml%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22wscript.exe+%5C%22%25VBSFile%25%5C%22+%5C%22%25%25V%5C%22+%5C%22.html%5C%22+%5C%22New+HTML+Document%5C%22%22+%2Ff+%3Enul%0D%0A%0D%0Aecho.%0D%0Aecho+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0Aecho+4.+Creating+%22This+PC%22+Shortcut...%0D%0Aecho+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%0D%0A%3A%3A+Delete+the+old+cascading+menu+components%0D%0Areg+delete+%22HKEY_LOCAL_MACHINE%5CSoftware%5CClasses%5CDirectory%5CBackground%5Cshell%5CSystemDrivesMenu%22+%2Ff+%3Enul+2%3E%261%0D%0Areg+delete+%22%25USER_REG%25%5CSystemDrivesMenu%22+%2Ff+%3Enul+2%3E%261%0D%0Areg+delete+%22%25USER_CS%25%5CRefreshDriveList%22+%2Ff+%3Enul+2%3E%261%0D%0Areg+delete+%22%25USER_CS%25%5COpenThisPC%22+%2Ff+%3Enul+2%3E%261%0D%0A%0D%0A%3A%3A+Create+the+direct+%22This+PC%22+shortcut%0D%0Areg+add+%22%25REG_PATH%25%5COpenThisPC%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22This+PC%22+%2Ff+%3Enul%0D%0Areg+add+%22%25REG_PATH%25%5COpenThisPC%22+%2Fv+%22Icon%22+%2Ft+REG_SZ+%2Fd+%22imageres.dll%2C-109%22+%2Ff+%3Enul%0D%0Areg+add+%22%25REG_PATH%25%5COpenThisPC%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22explorer.exe+shell%3A%3A%3A%7B20D04FE0-3AEA-1069-A2D8-08002B30309D%7D%22+%2Ff+%3Enul%0D%0A%0D%0Aecho.%0D%0Aecho+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0Aecho+5.+Creating+%22Power+Options%22+Dropdown+Menu...%0D%0Aecho+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%0D%0Areg+add+%22%25REG_PATH%25%5CPowerMenu%22+%2Fv+%22MUIVerb%22+%2Ft+REG_SZ+%2Fd+%22Power+Options%22+%2Ff+%3Enul%0D%0Areg+add+%22%25REG_PATH%25%5CPowerMenu%22+%2Fv+%22Icon%22+%2Ft+REG_SZ+%2Fd+%22shell32.dll%2C-328%22+%2Ff+%3Enul%0D%0Areg+add+%22%25REG_PATH%25%5CPowerMenu%22+%2Fv+%22Position%22+%2Ft+REG_SZ+%2Fd+%22Bottom%22+%2Ff+%3Enul%0D%0Areg+add+%22%25REG_PATH%25%5CPowerMenu%22+%2Fv+%22SubCommands%22+%2Ft+REG_SZ+%2Fd+%22PowerLock%3BPowerSignOut%3BPowerSleep%3BPowerRestart%3BPowerShutdown%22+%2Ff+%3Enul%0D%0A%0D%0Areg+add+%22%25CS_PATH%25%5CPowerLock%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Lock%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CPowerLock%22+%2Fv+%22Icon%22+%2Ft+REG_SZ+%2Fd+%22shell32.dll%2C-325%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CPowerLock%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22rundll32.exe+user32.dll%2CLockWorkStation%22+%2Ff+%3Enul%0D%0A%0D%0Areg+add+%22%25CS_PATH%25%5CPowerSignOut%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Sign+Out%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CPowerSignOut%22+%2Fv+%22Icon%22+%2Ft+REG_SZ+%2Fd+%22shell32.dll%2C-326%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CPowerSignOut%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22shutdown.exe+%2Fl%22+%2Ff+%3Enul%0D%0A%0D%0Areg+add+%22%25CS_PATH%25%5CPowerSleep%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Sleep%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CPowerSleep%22+%2Fv+%22Icon%22+%2Ft+REG_SZ+%2Fd+%22shell32.dll%2C-331%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CPowerSleep%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22rundll32.exe+powrprof.dll%2CSetSuspendState+0%2C1%2C0%22+%2Ff+%3Enul%0D%0A%0D%0Areg+add+%22%25CS_PATH%25%5CPowerRestart%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Restart%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CPowerRestart%22+%2Fv+%22Icon%22+%2Ft+REG_SZ+%2Fd+%22shell32.dll%2C-238%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CPowerRestart%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22shutdown.exe+%2Fr+%2Ft+0+%2Ff%22+%2Ff+%3Enul%0D%0A%0D%0Areg+add+%22%25CS_PATH%25%5CPowerShutdown%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22Shut+Down%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CPowerShutdown%22+%2Fv+%22Icon%22+%2Ft+REG_SZ+%2Fd+%22shell32.dll%2C-328%22+%2Ff+%3Enul%0D%0Areg+add+%22%25CS_PATH%25%5CPowerShutdown%5Ccommand%22+%2Fve+%2Ft+REG_SZ+%2Fd+%22shutdown.exe+%2Fs+%2Ft+0+%2Ff%22+%2Ff+%3Enul%0D%0A%0D%0Aecho.%0D%0Aecho+Setup+completed+successfully%21&UserOnceScriptType2=Cmd&UserOnceScript3=Windows+Registry+Editor+Version+5.00%0D%0A%0D%0A%3B+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%3B+Chrome+Extensions+%28Auto-Install+with+Manual+Toggle%29%0D%0A%3B+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%5BHKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CGoogle%5CChrome%5D%0D%0A%22ExtensionSettings%22%3D%22%7B%5C%22bgnkhhnnamicmpeenaelnjfhikgbkllg%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fclients2.google.com%2Fservice%2Fupdate2%2Fcrx%5C%22%7D%2C%5C%22mpnlkmlkncncpgnnkmkgoobfpnjmblnk%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fclients2.google.com%2Fservice%2Fupdate2%2Fcrx%5C%22%7D%2C%5C%22ponfpcnoihfmfllpaingbgckeeldkhle%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fclients2.google.com%2Fservice%2Fupdate2%2Fcrx%5C%22%7D%2C%5C%22okpidcojinmlaakglciglbpcpajaibco%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fclients2.google.com%2Fservice%2Fupdate2%2Fcrx%5C%22%7D%2C%5C%22epcnnfbjfcgphgdmggkamkmgojdagdnn%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fclients2.google.com%2Fservice%2Fupdate2%2Fcrx%5C%22%7D%2C%5C%22ojplmecpdpgccookcobabopnaifgidhf%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fclients2.google.com%2Fservice%2Fupdate2%2Fcrx%5C%22%7D%2C%5C%22gbkeegbaiigmenfmjfclcdgdpimamgkj%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fclients2.google.com%2Fservice%2Fupdate2%2Fcrx%5C%22%7D%7D%22%0D%0A%0D%0A%3B+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%3B+Brave+Extensions+%28Auto-Install+with+Manual+Toggle%29%0D%0A%3B+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%5BHKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CBraveSoftware%5CBrave%5D%0D%0A%22ExtensionSettings%22%3D%22%7B%5C%22bgnkhhnnamicmpeenaelnjfhikgbkllg%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fclients2.google.com%2Fservice%2Fupdate2%2Fcrx%5C%22%7D%2C%5C%22mpnlkmlkncncpgnnkmkgoobfpnjmblnk%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fclients2.google.com%2Fservice%2Fupdate2%2Fcrx%5C%22%7D%2C%5C%22ponfpcnoihfmfllpaingbgckeeldkhle%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fclients2.google.com%2Fservice%2Fupdate2%2Fcrx%5C%22%7D%2C%5C%22okpidcojinmlaakglciglbpcpajaibco%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fclients2.google.com%2Fservice%2Fupdate2%2Fcrx%5C%22%7D%2C%5C%22epcnnfbjfcgphgdmggkamkmgojdagdnn%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fclients2.google.com%2Fservice%2Fupdate2%2Fcrx%5C%22%7D%2C%5C%22ojplmecpdpgccookcobabopnaifgidhf%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fclients2.google.com%2Fservice%2Fupdate2%2Fcrx%5C%22%7D%2C%5C%22gbkeegbaiigmenfmjfclcdgdpimamgkj%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fclients2.google.com%2Fservice%2Fupdate2%2Fcrx%5C%22%7D%7D%22%0D%0A%0D%0A%3B+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%3B+Chromium+Extensions+%28Auto-Install+with+Manual+Toggle%29%0D%0A%3B+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%5BHKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CChromium%5D%0D%0A%22ExtensionSettings%22%3D%22%7B%5C%22bgnkhhnnamicmpeenaelnjfhikgbkllg%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fclients2.google.com%2Fservice%2Fupdate2%2Fcrx%5C%22%7D%2C%5C%22mpnlkmlkncncpgnnkmkgoobfpnjmblnk%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fclients2.google.com%2Fservice%2Fupdate2%2Fcrx%5C%22%7D%2C%5C%22ponfpcnoihfmfllpaingbgckeeldkhle%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fclients2.google.com%2Fservice%2Fupdate2%2Fcrx%5C%22%7D%2C%5C%22okpidcojinmlaakglciglbpcpajaibco%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fclients2.google.com%2Fservice%2Fupdate2%2Fcrx%5C%22%7D%2C%5C%22epcnnfbjfcgphgdmggkamkmgojdagdnn%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fclients2.google.com%2Fservice%2Fupdate2%2Fcrx%5C%22%7D%7D%22%0D%0A%0D%0A%3B+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%3B+Microsoft+Edge+Extensions+%28Auto-Install+with+Manual+Toggle%29%0D%0A%3B+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%5BHKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CEdge%5D%0D%0A%22ExtensionSettings%22%3D%22%7B%5C%22odfafepnkmbhccpbejgmiehpchacaeak%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fedge.microsoft.com%2Fextensionwebstorebase%2Fv1%2Fcrx%5C%22%7D%2C%5C%22pdffkfellgipmhklpdmokmckkkfcopbh%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fedge.microsoft.com%2Fextensionwebstorebase%2Fv1%2Fcrx%5C%22%7D%2C%5C%22lmakhegealefmkbnagibiebebncemhgn%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fedge.microsoft.com%2Fextensionwebstorebase%2Fv1%2Fcrx%5C%22%7D%2C%5C%22bdaafgjhhjkdplpffldcncdignokfkbo%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fedge.microsoft.com%2Fextensionwebstorebase%2Fv1%2Fcrx%5C%22%7D%2C%5C%22dlgfaleeejmphhnemjgiaekdbonkagkd%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fedge.microsoft.com%2Fextensionwebstorebase%2Fv1%2Fcrx%5C%22%7D%2C%5C%22gdgnlfdenkmjcfgjpnookbglpndleahm%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fedge.microsoft.com%2Fextensionwebstorebase%2Fv1%2Fcrx%5C%22%7D%2C%5C%22gbkeegbaiigmenfmjfclcdgdpimamgkj%5C%22%3A%7B%5C%22installation_mode%5C%22%3A%5C%22normal_installed%5C%22%2C%5C%22update_url%5C%22%3A%5C%22https%3A%2F%2Fedge.microsoft.com%2Fextensionwebstorebase%2Fv1%2Fcrx%5C%22%7D%7D%22&UserOnceScriptType3=Reg&UserOnceScript4=%23+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%23+DYNAMIC+PC+NAME+GENERATOR+%2815-Char+PC+Name+%2B+Full+Model+Name%29%0D%0A%23+%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%0D%0A%23+1.+Define+lists+%28Apple+removed+from+Fruits%29%0D%0A%24Weapons+%3D+%40%28%22Trishula%22%2C+%22Sudarshana%22%2C+%22Kaumodaki%22%2C+%22Panchajanya%22%2C+%22Pinaka%22%2C+%22Sharanga%22%2C+%22Gandiva%22%2C+%22Vijaya%22%2C+%22Nandaka%22%2C+%22Khatvanga%22%2C+%22Pasha%22%2C+%22Ankusha%22%2C+%22Vajra%22%2C+%22Parashu%22%2C+%22Agneyastra%22%2C+%22Narayanastra%22%2C+%22Brahmastra%22%2C+%22Bhargavastra%22%2C+%22Nagapasha%22%2C+%22Garudastra%22%2C+%22Vayavyastra%22%2C+%22Suryastra%22%2C+%22Bhaumastra%22%2C+%22Varunastra%22%2C+%22Indrastra%22%2C+%22Rudrastra%22%2C+%22Yamadanda%22%2C+%22Kaladanda%22%2C+%22Shakti%22%2C+%22Asi%22%2C+%22Dhanush%22%2C+%22Chakra%22%2C+%22Gada%22%2C+%22Hala%22%2C+%22Musala%22%2C+%22Mudgara%22%2C+%22Tomara%22%2C+%22Pattisha%22%2C+%22Parigha%22%2C+%22Kripana%22%2C+%22Kunta%22%2C+%22Trishul%22%2C+%22Astra%22%2C+%22Shula%22%2C+%22Khanda%22%2C+%22Vel%22%2C+%22Aruval%22%2C+%22Katar%22%2C+%22Pata%22%2C+%22BaghNakh%22%2C+%22Urumi%22%29%0D%0A%24Animals+%3D+%40%28%22Lion%22%2C+%22Tiger%22%2C+%22Elephant%22%2C+%22Leopard%22%2C+%22Cheetah%22%2C+%22Jaguar%22%2C+%22Panther%22%2C+%22Wolf%22%2C+%22Fox%22%2C+%22Bear%22%2C+%22Deer%22%2C+%22Moose%22%2C+%22Elk%22%2C+%22Bison%22%2C+%22Buffalo%22%2C+%22Rhino%22%2C+%22Hippo%22%2C+%22Giraffe%22%2C+%22Zebra%22%2C+%22Camel%22%2C+%22Llama%22%2C+%22Alpaca%22%2C+%22Kangaroo%22%2C+%22Koala%22%2C+%22Wombat%22%2C+%22Gorilla%22%2C+%22Monkey%22%2C+%22Baboon%22%2C+%22Lemur%22%2C+%22Sloth%22%2C+%22Panda%22%2C+%22Racoon%22%2C+%22Badger%22%2C+%22Beaver%22%2C+%22Otter%22%2C+%22Seal%22%2C+%22Walrus%22%2C+%22Dolphin%22%2C+%22Whale%22%2C+%22Shark%22%2C+%22Ray%22%2C+%22Turtle%22%2C+%22Snake%22%2C+%22Lizard%22%2C+%22Frog%22%2C+%22Toad%22%2C+%22Croc%22%2C+%22Horse%22%2C+%22Mule%22%2C+%22Donkey%22%2C+%22Puma%22%29%0D%0A%24Fruits++%3D+%40%28%22Mango%22%2C+%22Banana%22%2C+%22Orange%22%2C+%22Grape%22%2C+%22Lemon%22%2C+%22Lime%22%2C+%22Cherry%22%2C+%22Peach%22%2C+%22Plum%22%2C+%22Pear%22%2C+%22Kiwi%22%2C+%22Melon%22%2C+%22Papaya%22%2C+%22Fig%22%2C+%22Date%22%2C+%22Guava%22%2C+%22Lychee%22%2C+%22Olive%22%2C+%22Coconut%22%2C+%22Berry%22%2C+%22Raspberry%22%2C+%22Blueberry%22%2C+%22Blackberry%22%2C+%22Cranberry%22%2C+%22Strawberry%22%2C+%22Pineapple%22%2C+%22Pomegranate%22%2C+%22Avocado%22%2C+%22Tomato%22%2C+%22Pumpkin%22%2C+%22Squash%22%2C+%22Zucchini%22%2C+%22Cucumber%22%2C+%22Eggplant%22%2C+%22Pepper%22%2C+%22Quince%22%2C+%22Apricot%22%2C+%22Nectarine%22%2C+%22Grapefruit%22%2C+%22Pomelo%22%2C+%22Tangerine%22%2C+%22Mandarin%22%2C+%22Clementine%22%2C+%22Kumquat%22%2C+%22Durian%22%2C+%22Jackfruit%22%2C+%22Tamarind%22%2C+%22Persimmon%22%2C+%22Mulberry%22%29%0D%0A%24Birds+++%3D+%40%28%22Peacock%22%2C+%22Parrot%22%2C+%22Pigeon%22%2C+%22Crow%22%2C+%22Raven%22%2C+%22Swan%22%2C+%22Goose%22%2C+%22Duck%22%2C+%22Eagle%22%2C+%22Hawk%22%2C+%22Falcon%22%2C+%22Owl%22%2C+%22Kite%22%2C+%22Vulture%22%2C+%22Condor%22%2C+%22Osprey%22%2C+%22Heron%22%2C+%22Crane%22%2C+%22Stork%22%2C+%22Ibis%22%2C+%22Flamingo%22%2C+%22Pelican%22%2C+%22Penguin%22%2C+%22Puffin%22%2C+%22Gull%22%2C+%22Tern%22%2C+%22Albatross%22%2C+%22Petrel%22%2C+%22Loon%22%2C+%22Grebe%22%2C+%22Emu%22%2C+%22Ostrich%22%2C+%22Rhea%22%2C+%22Cassowary%22%2C+%22Macaw%22%2C+%22Cockatoo%22%2C+%22Toucan%22%2C+%22Hornbill%22%2C+%22Woodpecker%22%2C+%22Kingfisher%22%2C+%22Roller%22%2C+%22Hoopoe%22%2C+%22Swift%22%2C+%22Swallow%22%2C+%22Martin%22%2C+%22Lark%22%2C+%22Pipit%22%2C+%22Wagtail%22%2C+%22Robin%22%2C+%22Finch%22%29%0D%0A%0D%0A%24AllNames+%3D+%24Weapons+%2B+%24Animals+%2B+%24Fruits+%2B+%24Birds%0D%0A%0D%0A%23+2.+Get+Hardware+Info%0D%0A%24SysInfo+%3D+Get-CimInstance+-ClassName+Win32_ComputerSystem%0D%0A%24Manufacturer+%3D+%24SysInfo.Manufacturer.Split%28%22+%22%29%5B0%5D%0D%0A%23+Clean+model+name+%28remove+special+characters%29%0D%0A%24ModelClean+%3D+%28%24SysInfo.Model+-replace+%27%5B%5Ea-zA-Z0-9%5D%27%2C+%27%27%29%0D%0A%0D%0A%23+3.+Generate+PC+Name%3A+Theme-Manufacturer+%28Strict+15-char+limit%29%0D%0A%24RandomName+%3D+%24AllNames+%7C+Get-Random%0D%0A%24CombinedName+%3D+%22%24RandomName-%24Manufacturer%22%0D%0Aif+%28%24CombinedName.Length+-gt+15%29+%7B+%24NewPCName+%3D+%24RandomName.Substring%280%2C+15%29+%7D+else+%7B+%24NewPCName+%3D+%24CombinedName+%7D%0D%0A%0D%0A%23+4.+Generate+Model+Name%3A+SLNGNR-Model+%28NO+LIMIT%29%0D%0A%24ModelName+%3D+%22SLNGNR-%24ModelClean%22%0D%0A%0D%0A%23+5.+Apply+Registry+Changes%0D%0AWrite-Host+%22Setting+Computer+Name+to%3A+%24NewPCName%22+-ForegroundColor+Cyan%0D%0Areg+add+%22HKLM%5CSYSTEM%5CCurrentControlSet%5CControl%5CComputerName%5CComputerName%22+%2Fv+ComputerName+%2Ft+REG_SZ+%2Fd+%24NewPCName+%2Ff+%7C+Out-Null%0D%0Areg+add+%22HKLM%5CSYSTEM%5CCurrentControlSet%5CServices%5CTcpip%5CParameters%22+%2Fv+%22NV+Hostname%22+%2Ft+REG_SZ+%2Fd+%24NewPCName+%2Ff+%7C+Out-Null%0D%0Areg+add+%22HKLM%5CSYSTEM%5CCurrentControlSet%5CServices%5CTcpip%5CParameters%22+%2Fv+Hostname+%2Ft+REG_SZ+%2Fd+%24NewPCName+%2Ff+%7C+Out-Null%0D%0A%0D%0AWrite-Host+%22Setting+System+Model+to%3A+%24ModelName%22+-ForegroundColor+Cyan%0D%0Areg+add+%22HKLM%5CSYSTEM%5CCurrentControlSet%5CControl%5CSystemInformation%22+%2Fv+SystemProductName+%2Ft+REG_SZ+%2Fd+%24ModelName+%2Ff+%7C+Out-Null%0D%0A%0D%0AWrite-Host+%22Success.+Restart+required.%22+-ForegroundColor+Green&UserOnceScriptType4=Ps1&RestartExplorer=true&AppLockerMode=Skip-->
+	<settings pass="offlineServicing"></settings>
+	<settings pass="windowsPE">
+		<component name="Microsoft-Windows-International-Core-WinPE" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<UILanguage>en-US</UILanguage>
+		</component>
+		<component name="Microsoft-Windows-International-Core-WinPE" processorArchitecture="arm64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<UILanguage>en-US</UILanguage>
+		</component>
+		<component name="Microsoft-Windows-International-Core-WinPE" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<UILanguage>en-US</UILanguage>
+		</component>
+		<component name="Microsoft-Windows-Setup" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<UserData>
+				<ProductKey>
+					<Key>VK7JG-NPHTM-C97JM-9MPGT-3V66T</Key>
+					<WillShowUI>OnError</WillShowUI>
+				</ProductKey>
+				<AcceptEula>true</AcceptEula>
+			</UserData>
+			<UseConfigurationSet>true</UseConfigurationSet>
+			<RunSynchronous>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>1</Order>
+					<Path>reg.exe add "HKLM\SYSTEM\Setup\LabConfig" /v BypassTPMCheck /t REG_DWORD /d 1 /f</Path>
+				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>2</Order>
+					<Path>reg.exe add "HKLM\SYSTEM\Setup\LabConfig" /v BypassSecureBootCheck /t REG_DWORD /d 1 /f</Path>
+				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>3</Order>
+					<Path>reg.exe add "HKLM\SYSTEM\Setup\LabConfig" /v BypassRAMCheck /t REG_DWORD /d 1 /f</Path>
+				</RunSynchronousCommand>
+			</RunSynchronous>
+		</component>
+		<component name="Microsoft-Windows-Setup" processorArchitecture="arm64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<UserData>
+				<ProductKey>
+					<Key>VK7JG-NPHTM-C97JM-9MPGT-3V66T</Key>
+					<WillShowUI>OnError</WillShowUI>
+				</ProductKey>
+				<AcceptEula>true</AcceptEula>
+			</UserData>
+			<UseConfigurationSet>true</UseConfigurationSet>
+			<RunSynchronous>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>1</Order>
+					<Path>reg.exe add "HKLM\SYSTEM\Setup\LabConfig" /v BypassTPMCheck /t REG_DWORD /d 1 /f</Path>
+				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>2</Order>
+					<Path>reg.exe add "HKLM\SYSTEM\Setup\LabConfig" /v BypassSecureBootCheck /t REG_DWORD /d 1 /f</Path>
+				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>3</Order>
+					<Path>reg.exe add "HKLM\SYSTEM\Setup\LabConfig" /v BypassRAMCheck /t REG_DWORD /d 1 /f</Path>
+				</RunSynchronousCommand>
+			</RunSynchronous>
+		</component>
+		<component name="Microsoft-Windows-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<UserData>
+				<ProductKey>
+					<Key>VK7JG-NPHTM-C97JM-9MPGT-3V66T</Key>
+					<WillShowUI>OnError</WillShowUI>
+				</ProductKey>
+				<AcceptEula>true</AcceptEula>
+			</UserData>
+			<UseConfigurationSet>true</UseConfigurationSet>
+			<RunSynchronous>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>1</Order>
+					<Path>reg.exe add "HKLM\SYSTEM\Setup\LabConfig" /v BypassTPMCheck /t REG_DWORD /d 1 /f</Path>
+				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>2</Order>
+					<Path>reg.exe add "HKLM\SYSTEM\Setup\LabConfig" /v BypassSecureBootCheck /t REG_DWORD /d 1 /f</Path>
+				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>3</Order>
+					<Path>reg.exe add "HKLM\SYSTEM\Setup\LabConfig" /v BypassRAMCheck /t REG_DWORD /d 1 /f</Path>
+				</RunSynchronousCommand>
+			</RunSynchronous>
+		</component>
+	</settings>
+	<settings pass="generalize"></settings>
+	<settings pass="specialize">
+		<component name="Microsoft-Windows-Shell-Setup" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<ComputerName>TEMPNAME</ComputerName>
+			<TimeZone>India Standard Time</TimeZone>
+		</component>
+		<component name="Microsoft-Windows-Shell-Setup" processorArchitecture="arm64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<ComputerName>TEMPNAME</ComputerName>
+			<TimeZone>India Standard Time</TimeZone>
+		</component>
+		<component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<ComputerName>TEMPNAME</ComputerName>
+			<TimeZone>India Standard Time</TimeZone>
+		</component>
+		<component name="Microsoft-Windows-Deployment" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<RunSynchronous>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>1</Order>
+					<Path>powershell.exe -WindowStyle "Hidden" -NoProfile -Command "$xml = [xml]::new(); $xml.Load('C:\Windows\Panther\unattend.xml'); $sb = [scriptblock]::Create( $xml.unattend.Extensions.ExtractScript ); Invoke-Command -ScriptBlock $sb -ArgumentList $xml;"</Path>
+				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>2</Order>
+					<Path>powershell.exe -WindowStyle "Hidden" -ExecutionPolicy "Unrestricted" -NoProfile -File "C:\Windows\Setup\Scripts\Specialize.ps1"</Path>
+				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>3</Order>
+					<Path>reg.exe load "HKU\DefaultUser" "C:\Users\Default\NTUSER.DAT"</Path>
+				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>4</Order>
+					<Path>powershell.exe -WindowStyle "Hidden" -ExecutionPolicy "Unrestricted" -NoProfile -File "C:\Windows\Setup\Scripts\DefaultUser.ps1"</Path>
+				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>5</Order>
+					<Path>reg.exe unload "HKU\DefaultUser"</Path>
+				</RunSynchronousCommand>
+			</RunSynchronous>
+		</component>
+		<component name="Microsoft-Windows-Deployment" processorArchitecture="arm64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<RunSynchronous>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>1</Order>
+					<Path>powershell.exe -WindowStyle "Hidden" -NoProfile -Command "$xml = [xml]::new(); $xml.Load('C:\Windows\Panther\unattend.xml'); $sb = [scriptblock]::Create( $xml.unattend.Extensions.ExtractScript ); Invoke-Command -ScriptBlock $sb -ArgumentList $xml;"</Path>
+				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>2</Order>
+					<Path>powershell.exe -WindowStyle "Hidden" -ExecutionPolicy "Unrestricted" -NoProfile -File "C:\Windows\Setup\Scripts\Specialize.ps1"</Path>
+				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>3</Order>
+					<Path>reg.exe load "HKU\DefaultUser" "C:\Users\Default\NTUSER.DAT"</Path>
+				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>4</Order>
+					<Path>powershell.exe -WindowStyle "Hidden" -ExecutionPolicy "Unrestricted" -NoProfile -File "C:\Windows\Setup\Scripts\DefaultUser.ps1"</Path>
+				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>5</Order>
+					<Path>reg.exe unload "HKU\DefaultUser"</Path>
+				</RunSynchronousCommand>
+			</RunSynchronous>
+		</component>
+		<component name="Microsoft-Windows-Deployment" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<RunSynchronous>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>1</Order>
+					<Path>powershell.exe -WindowStyle "Hidden" -NoProfile -Command "$xml = [xml]::new(); $xml.Load('C:\Windows\Panther\unattend.xml'); $sb = [scriptblock]::Create( $xml.unattend.Extensions.ExtractScript ); Invoke-Command -ScriptBlock $sb -ArgumentList $xml;"</Path>
+				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>2</Order>
+					<Path>powershell.exe -WindowStyle "Hidden" -ExecutionPolicy "Unrestricted" -NoProfile -File "C:\Windows\Setup\Scripts\Specialize.ps1"</Path>
+				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>3</Order>
+					<Path>reg.exe load "HKU\DefaultUser" "C:\Users\Default\NTUSER.DAT"</Path>
+				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>4</Order>
+					<Path>powershell.exe -WindowStyle "Hidden" -ExecutionPolicy "Unrestricted" -NoProfile -File "C:\Windows\Setup\Scripts\DefaultUser.ps1"</Path>
+				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>5</Order>
+					<Path>reg.exe unload "HKU\DefaultUser"</Path>
+				</RunSynchronousCommand>
+			</RunSynchronous>
+		</component>
+	</settings>
+	<settings pass="auditSystem"></settings>
+	<settings pass="auditUser"></settings>
+	<settings pass="oobeSystem">
+		<component name="Microsoft-Windows-International-Core" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<InputLocale>0409:00000409;4009:00004009</InputLocale>
+			<SystemLocale>en-US</SystemLocale>
+			<UILanguage>en-US</UILanguage>
+			<UserLocale>en-US</UserLocale>
+		</component>
+		<component name="Microsoft-Windows-International-Core" processorArchitecture="arm64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<InputLocale>0409:00000409;4009:00004009</InputLocale>
+			<SystemLocale>en-US</SystemLocale>
+			<UILanguage>en-US</UILanguage>
+			<UserLocale>en-US</UserLocale>
+		</component>
+		<component name="Microsoft-Windows-International-Core" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<InputLocale>0409:00000409;4009:00004009</InputLocale>
+			<SystemLocale>en-US</SystemLocale>
+			<UILanguage>en-US</UILanguage>
+			<UserLocale>en-US</UserLocale>
+		</component>
+		<component name="Microsoft-Windows-Shell-Setup" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<OOBE>
+				<ProtectYourPC>3</ProtectYourPC>
+				<HideEULAPage>true</HideEULAPage>
+				<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+				<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+			</OOBE>
+			<FirstLogonCommands>
+				<SynchronousCommand wcm:action="add">
+					<Order>1</Order>
+					<CommandLine>powershell.exe -WindowStyle "Hidden" -ExecutionPolicy "Unrestricted" -NoProfile -File "C:\Windows\Setup\Scripts\FirstLogon.ps1"</CommandLine>
+				</SynchronousCommand>
+			</FirstLogonCommands>
+		</component>
+		<component name="Microsoft-Windows-Shell-Setup" processorArchitecture="arm64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<OOBE>
+				<ProtectYourPC>3</ProtectYourPC>
+				<HideEULAPage>true</HideEULAPage>
+				<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+				<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+			</OOBE>
+			<FirstLogonCommands>
+				<SynchronousCommand wcm:action="add">
+					<Order>1</Order>
+					<CommandLine>powershell.exe -WindowStyle "Hidden" -ExecutionPolicy "Unrestricted" -NoProfile -File "C:\Windows\Setup\Scripts\FirstLogon.ps1"</CommandLine>
+				</SynchronousCommand>
+			</FirstLogonCommands>
+		</component>
+		<component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<OOBE>
+				<ProtectYourPC>3</ProtectYourPC>
+				<HideEULAPage>true</HideEULAPage>
+				<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+				<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+			</OOBE>
+			<FirstLogonCommands>
+				<SynchronousCommand wcm:action="add">
+					<Order>1</Order>
+					<CommandLine>powershell.exe -WindowStyle "Hidden" -ExecutionPolicy "Unrestricted" -NoProfile -File "C:\Windows\Setup\Scripts\FirstLogon.ps1"</CommandLine>
+				</SynchronousCommand>
+			</FirstLogonCommands>
+		</component>
+	</settings>
+	<Extensions xmlns="https://schneegans.de/windows/unattend-generator/">
+		<Build>
+			<Commit>
+				<Hash>3de37dc6bc9bb1f63aeac7aa137c84c1b30b3b28</Hash>
+				<GitHubUrl>https://github.com/cschneegans/unattend-generator/commit/3de37dc6bc9bb1f63aeac7aa137c84c1b30b3b28</GitHubUrl>
+			</Commit>
+		</Build>
+		<ExtractScript>
+param(
+    [xml] $Document
+);
+
+foreach( $file in $Document.unattend.Extensions.File ) {
+    $path = [System.Environment]::ExpandEnvironmentVariables( $file.GetAttribute( 'path' ) );
+    mkdir -Path( $path | Split-Path -Parent ) -ErrorAction 'SilentlyContinue';
+    $encoding = switch( [System.IO.Path]::GetExtension( $path ) ) {
+        { $_ -in '.ps1', '.xml' } { [System.Text.Encoding]::UTF8; }
+        { $_ -in '.reg', '.vbs', '.js' } { [System.Text.UnicodeEncoding]::new( $false, $true ); }
+        default { [System.Text.Encoding]::Default; }
+    };
+    $bytes = $encoding.GetPreamble() + $encoding.GetBytes( $file.InnerText.Trim() );
+    [System.IO.File]::WriteAllBytes( $path, $bytes );
+}
+		</ExtractScript>
+		<File path="C:\Windows\Setup\Scripts\GetComputerName.ps1">
+return 'SLNGNR-XPC-{0:D3}' -f ( Get-Random -Minimum 0 -Maximum 369 );
+		</File>
+		<File path="C:\Windows\Setup\Scripts\SetComputerName.ps1">
+$ErrorActionPreference = 'Stop';
+Set-StrictMode -Version 'Latest';
+&amp; {
+	$newName = ( Get-Content -LiteralPath 'C:\Windows\Setup\Scripts\ComputerName.txt' -Raw ).Trim();
+	if( [string]::IsNullOrWhitespace( $newName ) ) {
+		throw "No computer name was provided.";
+	}
+
+	$keys = @(
+		@{
+			LiteralPath = 'Registry::HKLM\SYSTEM\CurrentControlSet\Control\ComputerName\ComputerName';
+			Name = 'ComputerName';
+		};
+		@{
+			LiteralPath = 'Registry::HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters';
+			Name = 'Hostname';
+		};
+		@{
+			LiteralPath = 'Registry::HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters';
+			Name = 'NV Hostname';
+		};
+	);
+
+	while( $true ) {
+		foreach( $key in $keys ) {
+			Set-ItemProperty @key -Type 'String' -Value $newName;
+		}
+		Start-Sleep -Milliseconds 50;
+	}
+} *&gt;&amp;1 | Out-String -Width 1KB -Stream &gt;&gt; 'C:\Windows\Setup\Scripts\SetComputerName.log';
+		</File>
+		<File path="C:\Windows\Setup\Scripts\RemovePackages.ps1">
+$selectors = @(
+	'Microsoft.Microsoft3DViewer';
+	'Microsoft.BingSearch';
+	'Clipchamp.Clipchamp';
+	'Microsoft.WindowsAlarms';
+	'Microsoft.Copilot';
+	'Microsoft.549981C3F5F10';
+	'Microsoft.Windows.DevHome';
+	'MicrosoftCorporationII.MicrosoftFamily';
+	'Microsoft.WindowsFeedbackHub';
+	'Microsoft.Edge.GameAssist';
+	'Microsoft.GetHelp';
+	'Microsoft.Getstarted';
+	'microsoft.windowscommunicationsapps';
+	'Microsoft.WindowsMaps';
+	'Microsoft.MixedReality.Portal';
+	'Microsoft.BingNews';
+	'Microsoft.MicrosoftOfficeHub';
+	'Microsoft.Office.OneNote';
+	'Microsoft.OutlookForWindows';
+	'Microsoft.MSPaint';
+	'Microsoft.People';
+	'Microsoft.PowerAutomateDesktop';
+	'MicrosoftCorporationII.QuickAssist';
+	'Microsoft.SkypeApp';
+	'Microsoft.MicrosoftSolitaireCollection';
+	'Microsoft.MicrosoftStickyNotes';
+	'MicrosoftTeams';
+	'MSTeams';
+	'Microsoft.Todos';
+	'Microsoft.WindowsSoundRecorder';
+	'Microsoft.Wallet';
+	'Microsoft.BingWeather';
+	'Microsoft.Xbox.TCUI';
+	'Microsoft.XboxApp';
+	'Microsoft.XboxGameOverlay';
+	'Microsoft.XboxGamingOverlay';
+	'Microsoft.XboxIdentityProvider';
+	'Microsoft.XboxSpeechToTextOverlay';
+	'Microsoft.GamingApp';
+	'Microsoft.YourPhone';
+	'Microsoft.ZuneMusic';
+	'Microsoft.ZuneVideo';
+);
+$getCommand = {
+  Get-AppxProvisionedPackage -Online;
+};
+$filterCommand = {
+  $_.DisplayName -eq $selector;
+};
+$removeCommand = {
+  [CmdletBinding()]
+  param(
+    [Parameter( Mandatory, ValueFromPipeline )]
+    $InputObject
+  );
+  process {
+    $InputObject | Remove-AppxProvisionedPackage -AllUsers -Online -ErrorAction 'Continue';
+  }
+};
+$type = 'Package';
+$logfile = 'C:\Windows\Setup\Scripts\RemovePackages.log';
+&amp; {
+	$installed = &amp; $getCommand;
+	foreach( $selector in $selectors ) {
+		$result = [ordered] @{
+			Selector = $selector;
+		};
+		$found = $installed | Where-Object -FilterScript $filterCommand;
+		if( $found ) {
+			$result.Output = $found | &amp; $removeCommand;
+			if( $? ) {
+				$result.Message = "$type removed.";
+			} else {
+				$result.Message = "$type not removed.";
+				$result.Error = $Error[0];
+			}
+		} else {
+			$result.Message = "$type not installed.";
+		}
+		$result | ConvertTo-Json -Depth 3 -Compress;
+	}
+} *&gt;&amp;1 | Out-String -Width 1KB -Stream &gt;&gt; $logfile;
+		</File>
+		<File path="C:\Windows\Setup\Scripts\RemoveCapabilities.ps1">
+$selectors = @(
+	'Print.Fax.Scan';
+	'Language.Handwriting';
+	'Browser.InternetExplorer';
+	'MathRecognizer';
+	'OneCoreUAP.OneSync';
+	'OpenSSH.Client';
+	'Microsoft.Windows.PowerShell.ISE';
+	'App.Support.QuickAssist';
+	'Language.Speech';
+	'Language.TextToSpeech';
+	'App.StepsRecorder';
+	'Hello.Face.18967';
+	'Hello.Face.Migration.18967';
+	'Hello.Face.20134';
+	'Media.WindowsMediaPlayer';
+);
+$getCommand = {
+  Get-WindowsCapability -Online | Where-Object -Property 'State' -NotIn -Value @(
+    'NotPresent';
+    'Removed';
+  );
+};
+$filterCommand = {
+  ($_.Name -split '~')[0] -eq $selector;
+};
+$removeCommand = {
+  [CmdletBinding()]
+  param(
+    [Parameter( Mandatory, ValueFromPipeline )]
+    $InputObject
+  );
+  process {
+    $InputObject | Remove-WindowsCapability -Online -ErrorAction 'Continue';
+  }
+};
+$type = 'Capability';
+$logfile = 'C:\Windows\Setup\Scripts\RemoveCapabilities.log';
+&amp; {
+	$installed = &amp; $getCommand;
+	foreach( $selector in $selectors ) {
+		$result = [ordered] @{
+			Selector = $selector;
+		};
+		$found = $installed | Where-Object -FilterScript $filterCommand;
+		if( $found ) {
+			$result.Output = $found | &amp; $removeCommand;
+			if( $? ) {
+				$result.Message = "$type removed.";
+			} else {
+				$result.Message = "$type not removed.";
+				$result.Error = $Error[0];
+			}
+		} else {
+			$result.Message = "$type not installed.";
+		}
+		$result | ConvertTo-Json -Depth 3 -Compress;
+	}
+} *&gt;&amp;1 | Out-String -Width 1KB -Stream &gt;&gt; $logfile;
+		</File>
+		<File path="C:\Windows\Setup\Scripts\RemoveFeatures.ps1">
+$selectors = @(
+	'MediaPlayback';
+	'Microsoft-RemoteDesktopConnection';
+	'Recall';
+);
+$getCommand = {
+  Get-WindowsOptionalFeature -Online | Where-Object -Property 'State' -NotIn -Value @(
+    'Disabled';
+    'DisabledWithPayloadRemoved';
+  );
+};
+$filterCommand = {
+  $_.FeatureName -eq $selector;
+};
+$removeCommand = {
+  [CmdletBinding()]
+  param(
+    [Parameter( Mandatory, ValueFromPipeline )]
+    $InputObject
+  );
+  process {
+    $InputObject | Disable-WindowsOptionalFeature -Online -Remove -NoRestart -ErrorAction 'Continue';
+  }
+};
+$type = 'Feature';
+$logfile = 'C:\Windows\Setup\Scripts\RemoveFeatures.log';
+&amp; {
+	$installed = &amp; $getCommand;
+	foreach( $selector in $selectors ) {
+		$result = [ordered] @{
+			Selector = $selector;
+		};
+		$found = $installed | Where-Object -FilterScript $filterCommand;
+		if( $found ) {
+			$result.Output = $found | &amp; $removeCommand;
+			if( $? ) {
+				$result.Message = "$type removed.";
+			} else {
+				$result.Message = "$type not removed.";
+				$result.Error = $Error[0];
+			}
+		} else {
+			$result.Message = "$type not installed.";
+		}
+		$result | ConvertTo-Json -Depth 3 -Compress;
+	}
+} *&gt;&amp;1 | Out-String -Width 1KB -Stream &gt;&gt; $logfile;
+		</File>
+		<File path="C:\Windows\Setup\Scripts\TaskbarLayoutModification.xml">
+&lt;LayoutModificationTemplate xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification" xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout" xmlns:taskbar="http://schemas.microsoft.com/Start/2014/TaskbarLayout" Version="1"&gt;
+	&lt;CustomTaskbarLayoutCollection PinListPlacement="Replace"&gt;
+		&lt;defaultlayout:TaskbarLayout&gt;
+			&lt;taskbar:TaskbarPinList&gt;
+				&lt;taskbar:DesktopApp DesktopApplicationLinkPath="#leaveempty" /&gt;
+			&lt;/taskbar:TaskbarPinList&gt;
+		&lt;/defaultlayout:TaskbarLayout&gt;
+	&lt;/CustomTaskbarLayoutCollection&gt;
+&lt;/LayoutModificationTemplate&gt;
+		</File>
+		<File path="C:\Windows\Setup\Scripts\UnlockStartLayout.vbs">
+HKU = &amp;H80000003
+Set reg = GetObject("winmgmts://./root/default:StdRegProv")
+Set fso = CreateObject("Scripting.FileSystemObject")
+
+If reg.EnumKey(HKU, "", sids) = 0 Then
+	If Not IsNull(sids) Then
+		For Each sid In sids
+			key = sid + "\Software\Policies\Microsoft\Windows\Explorer"
+			name = "LockedStartLayout"
+			If reg.GetDWORDValue(HKU, key, name, existing) = 0 Then
+				reg.SetDWORDValue HKU, key, name, 0
+			End If
+		Next
+	End If
+End If
+		</File>
+		<File path="C:\Windows\Setup\Scripts\UnlockStartLayout.xml">
+&lt;Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task"&gt;
+	&lt;Triggers&gt;
+		&lt;EventTrigger&gt;
+			&lt;Enabled&gt;true&lt;/Enabled&gt;
+			&lt;Subscription&gt;&amp;lt;QueryList&amp;gt;&amp;lt;Query Id="0" Path="Application"&amp;gt;&amp;lt;Select Path="Application"&amp;gt;*[System[Provider[@Name='UnattendGenerator'] and EventID=1]]&amp;lt;/Select&amp;gt;&amp;lt;/Query&amp;gt;&amp;lt;/QueryList&amp;gt;&lt;/Subscription&gt;
+		&lt;/EventTrigger&gt;
+	&lt;/Triggers&gt;
+	&lt;Principals&gt;
+		&lt;Principal id="Author"&gt;
+			&lt;UserId&gt;S-1-5-18&lt;/UserId&gt;
+			&lt;RunLevel&gt;LeastPrivilege&lt;/RunLevel&gt;
+		&lt;/Principal&gt;
+	&lt;/Principals&gt;
+	&lt;Settings&gt;
+		&lt;MultipleInstancesPolicy&gt;IgnoreNew&lt;/MultipleInstancesPolicy&gt;
+		&lt;DisallowStartIfOnBatteries&gt;false&lt;/DisallowStartIfOnBatteries&gt;
+		&lt;StopIfGoingOnBatteries&gt;false&lt;/StopIfGoingOnBatteries&gt;
+		&lt;AllowHardTerminate&gt;true&lt;/AllowHardTerminate&gt;
+		&lt;StartWhenAvailable&gt;false&lt;/StartWhenAvailable&gt;
+		&lt;RunOnlyIfNetworkAvailable&gt;false&lt;/RunOnlyIfNetworkAvailable&gt;
+		&lt;IdleSettings&gt;
+			&lt;StopOnIdleEnd&gt;true&lt;/StopOnIdleEnd&gt;
+			&lt;RestartOnIdle&gt;false&lt;/RestartOnIdle&gt;
+		&lt;/IdleSettings&gt;
+		&lt;AllowStartOnDemand&gt;true&lt;/AllowStartOnDemand&gt;
+		&lt;Enabled&gt;true&lt;/Enabled&gt;
+		&lt;Hidden&gt;false&lt;/Hidden&gt;
+		&lt;RunOnlyIfIdle&gt;false&lt;/RunOnlyIfIdle&gt;
+		&lt;WakeToRun&gt;false&lt;/WakeToRun&gt;
+		&lt;ExecutionTimeLimit&gt;PT72H&lt;/ExecutionTimeLimit&gt;
+		&lt;Priority&gt;7&lt;/Priority&gt;
+	&lt;/Settings&gt;
+	&lt;Actions Context="Author"&gt;
+		&lt;Exec&gt;
+			&lt;Command&gt;C:\Windows\System32\wscript.exe&lt;/Command&gt;
+			&lt;Arguments&gt;C:\Windows\Setup\Scripts\UnlockStartLayout.vbs&lt;/Arguments&gt;
+		&lt;/Exec&gt;
+	&lt;/Actions&gt;
+&lt;/Task&gt;
+		</File>
+		<File path="C:\Windows\Setup\Scripts\MoveActiveHours.xml">
+&lt;Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task"&gt;
+	&lt;Triggers&gt;
+		&lt;BootTrigger&gt;
+			&lt;Repetition&gt;
+				&lt;Interval&gt;PT4H&lt;/Interval&gt;
+				&lt;StopAtDurationEnd&gt;false&lt;/StopAtDurationEnd&gt;
+			&lt;/Repetition&gt;
+			&lt;Enabled&gt;true&lt;/Enabled&gt;
+		&lt;/BootTrigger&gt;
+		&lt;RegistrationTrigger&gt;
+			&lt;Repetition&gt;
+				&lt;Interval&gt;PT4H&lt;/Interval&gt;
+				&lt;StopAtDurationEnd&gt;false&lt;/StopAtDurationEnd&gt;
+			&lt;/Repetition&gt;
+			&lt;Enabled&gt;true&lt;/Enabled&gt;
+		&lt;/RegistrationTrigger&gt;
+	&lt;/Triggers&gt;
+	&lt;Principals&gt;
+		&lt;Principal id="Author"&gt;
+			&lt;UserId&gt;S-1-5-19&lt;/UserId&gt;
+			&lt;RunLevel&gt;LeastPrivilege&lt;/RunLevel&gt;
+		&lt;/Principal&gt;
+	&lt;/Principals&gt;
+	&lt;Settings&gt;
+		&lt;MultipleInstancesPolicy&gt;IgnoreNew&lt;/MultipleInstancesPolicy&gt;
+		&lt;DisallowStartIfOnBatteries&gt;false&lt;/DisallowStartIfOnBatteries&gt;
+		&lt;StopIfGoingOnBatteries&gt;false&lt;/StopIfGoingOnBatteries&gt;
+		&lt;AllowHardTerminate&gt;true&lt;/AllowHardTerminate&gt;
+		&lt;StartWhenAvailable&gt;false&lt;/StartWhenAvailable&gt;
+		&lt;RunOnlyIfNetworkAvailable&gt;false&lt;/RunOnlyIfNetworkAvailable&gt;
+		&lt;IdleSettings&gt;
+			&lt;StopOnIdleEnd&gt;true&lt;/StopOnIdleEnd&gt;
+			&lt;RestartOnIdle&gt;false&lt;/RestartOnIdle&gt;
+		&lt;/IdleSettings&gt;
+		&lt;AllowStartOnDemand&gt;true&lt;/AllowStartOnDemand&gt;
+		&lt;Enabled&gt;true&lt;/Enabled&gt;
+		&lt;Hidden&gt;false&lt;/Hidden&gt;
+		&lt;RunOnlyIfIdle&gt;false&lt;/RunOnlyIfIdle&gt;
+		&lt;WakeToRun&gt;false&lt;/WakeToRun&gt;
+		&lt;ExecutionTimeLimit&gt;PT72H&lt;/ExecutionTimeLimit&gt;
+		&lt;Priority&gt;7&lt;/Priority&gt;
+	&lt;/Settings&gt;
+	&lt;Actions Context="Author"&gt;
+		&lt;Exec&gt;
+			&lt;Command&gt;%windir%\System32\conhost.exe&lt;/Command&gt;
+			&lt;Arguments&gt;--headless %windir%\System32\WindowsPowerShell\v1.0\powershell.exe -WindowStyle Hidden -NoProfile -NonInteractive -Command "$p = @{ LiteralPath = 'Registry::HKLM\Software\Microsoft\WindowsUpdate\UX\Settings'; Type = 'DWord'; }; $h = [datetime]::Now.Hour; Set-ItemProperty @p -Name 'ActiveHoursStart' -Value (($h + 23) % 24); Set-ItemProperty @p -Name 'ActiveHoursEnd' -Value (($h + 11) % 24); Set-ItemProperty @p -Name 'SmartActiveHoursState' -Value 0;"&lt;/Arguments&gt;
+		&lt;/Exec&gt;
+	&lt;/Actions&gt;
+&lt;/Task&gt;
+		</File>
+		<File path="C:\Windows\Setup\Scripts\MakeEdgeUninstallable.ps1">
+$ErrorActionPreference = 'Stop';
+&amp; {
+	try {
+		$params = @{
+			LiteralPath = 'C:\Windows\System32\IntegratedServicesRegionPolicySet.json';
+			Encoding = 'Utf8';
+		};
+		$o = Get-Content @params | ConvertFrom-Json;
+		$o.policies | ForEach-Object -Process {
+			if( $_.guid -eq '{1bca278a-5d11-4acf-ad2f-f9ab6d7f93a6}' ) {
+				$_.defaultState = 'enabled';
+			}
+		};
+		$o | ConvertTo-Json -Depth 9 | Out-File @params;
+	} catch {
+		$_;
+	}
+} *&gt;&amp;1 | Out-String -Width 1KB -Stream &gt;&gt; 'C:\Windows\Setup\Scripts\MakeEdgeUninstallable.log';
+		</File>
+		<File path="C:\Windows\Setup\Scripts\SetStartPins.ps1">
+$json = '{"pinnedList":[]}';
+if( [System.Environment]::OSVersion.Version.Build -lt 20000 ) {
+	return;
+}
+$key = 'Registry::HKLM\SOFTWARE\Microsoft\PolicyManager\current\device\Start';
+New-Item -Path $key -ItemType 'Directory' -ErrorAction 'SilentlyContinue';
+Set-ItemProperty -LiteralPath $key -Name 'ConfigureStartPins' -Value $json -Type 'String';
+		</File>
+		<File path="C:\Users\Default\AppData\Local\Microsoft\Windows\Shell\LayoutModification.xml">
+&lt;LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification"&gt;
+	&lt;LayoutOptions StartTileGroupCellWidth="6" /&gt;
+	&lt;DefaultLayoutOverride&gt;
+		&lt;StartLayoutCollection&gt;
+			&lt;StartLayout GroupCellWidth="6" xmlns="http://schemas.microsoft.com/Start/2014/FullDefaultLayout" /&gt;
+		&lt;/StartLayoutCollection&gt;
+	&lt;/DefaultLayoutOverride&gt;
+&lt;/LayoutModificationTemplate&gt;
+		</File>
+		<File path="C:\Windows\Setup\Scripts\unattend-01.reg">
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\PowerISO]
+"TbInstallFlag"=dword:00000000
+"TbInstallFlag2"=dword:00000000
+"Install_Dir_x64"="C:\\Program Files\\PowerISO"
+"Status"=dword:00000005
+"ShellIntegration"=dword:00000001
+"CheckUpgrade"=dword:00004ff9
+"Language"=dword:00000409
+"USER"=hex:00,04,46,52,45,45,0b,db,40,c6,80,20,c6,71,0c,15,60,7a,a9,5a,31,55
+"MainWindow"=hex:c0,00,00,00,c0,00,00,00,a0,05,00,00,e4,02,00,00,00,00,00,00,\
+  e3,03,00,00,63,01,00,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+
+[HKEY_CURRENT_USER\Software\PowerISO\FileTypes]
+
+[HKEY_CURRENT_USER\Software\PowerISO\FileTypes\.daa]
+
+[HKEY_CURRENT_USER\Software\PowerISO\FileTypes\.daa\Saved]
+
+[HKEY_CURRENT_USER\Software\PowerISO\FileTypes\.iso]
+
+[HKEY_CURRENT_USER\Software\PowerISO\FileTypes\.iso\Saved]
+@="Windows.IsoFile"
+
+[HKEY_CURRENT_USER\Software\PowerISO\FileTypes\.iso\Saved\OpenWithProgids]
+"Windows.IsoFile"=""
+
+[HKEY_CURRENT_USER\Software\PowerISO\FileTypes\.isz]
+
+[HKEY_CURRENT_USER\Software\PowerISO\FileTypes\.isz\Saved]
+
+[HKEY_CURRENT_USER\Software\PowerISO\FileTypes\.uif]
+
+[HKEY_CURRENT_USER\Software\PowerISO\FileTypes\.uif\Saved]
+
+[HKEY_CURRENT_USER\Software\PowerISO\FileTypes\.xdi]
+
+[HKEY_CURRENT_USER\Software\PowerISO\FileTypes\.xdi\Saved]
+
+[HKEY_CURRENT_USER\Software\PowerISO\SCDEmu]
+"DiskCount"=dword:00000001
+"FLAGS"=dword:00000005
+
+[HKEY_CURRENT_USER\Software\PowerISO\ViewSettings]
+
+[HKEY_CURRENT_USER\Software\PowerISO\ViewSettings\AudioCDRipperView]
+"FileName"="0,311"
+"FileSize"="1,207"
+"FileType"="2,207"
+"FileModifyed"="3,311"
+"FilePath"="4,0"
+"FileLBA"="5,0"
+"TrackNumber"="0,139"
+"TrackTitle"="1,279"
+"TrackArtist"="2,279"
+"TrackDuration"="3,139"
+"TrackSize"="4,139"
+"TrackComment"="5,139"
+
+[HKEY_CURRENT_USER\Software\PowerISO\ViewSettings\AudioCDView]
+"FileName"="0,311"
+"FileSize"="1,207"
+"FileType"="2,207"
+"FileModifyed"="3,311"
+"FilePath"="4,0"
+"FileLBA"="5,0"
+"TrackNumber"="0,139"
+"TrackTitle"="1,279"
+"TrackArtist"="2,279"
+"TrackDuration"="3,139"
+"TrackPause"="4,139"
+"TrackSize"="5,139"
+"TrackPath"="6,279"
+
+[HKEY_CURRENT_USER\Software\PowerISO\ViewSettings\AudioConverter]
+"FileName"="0,311"
+"FileSize"="1,207"
+"FileType"="2,207"
+"FileModifyed"="3,311"
+"FilePath"="4,0"
+"FileLBA"="5,0"
+
+[HKEY_CURRENT_USER\Software\PowerISO\ViewSettings\CDExtraView]
+"FileName"="0,311"
+"FileSize"="1,207"
+"FileType"="2,207"
+"FileModifyed"="3,311"
+"FilePath"="4,0"
+"FileLBA"="5,0"
+"TrackNumber"="0,139"
+"TrackTitle"="1,279"
+"TrackArtist"="2,279"
+"TrackDuration"="3,139"
+"TrackPause"="4,139"
+"TrackSize"="5,139"
+"TrackPath"="6,279"
+
+[HKEY_CURRENT_USER\Software\PowerISO\ViewSettings\DataDiscView]
+"FileName"="0,311"
+"FileSize"="1,207"
+"FileType"="2,207"
+"FileModifyed"="3,311"
+"FilePath"="4,0"
+"FileLBA"="5,0"
+
+[HKEY_CURRENT_USER\Software\PowerISO\ViewSettings\DVDVideoView]
+"FileName"="0,311"
+"FileSize"="1,207"
+"FileType"="2,207"
+"FileModifyed"="3,311"
+"FilePath"="4,0"
+"FileLBA"="5,0"
+
+[HKEY_CURRENT_USER\Software\PowerISO\ViewSettings\MixedModeCDView]
+"FileName"="0,311"
+"FileSize"="1,207"
+"FileType"="2,207"
+"FileModifyed"="3,311"
+"FilePath"="4,0"
+"FileLBA"="5,0"
+"TrackNumber"="0,139"
+"TrackTitle"="1,279"
+"TrackArtist"="2,279"
+"TrackDuration"="3,139"
+"TrackPause"="4,139"
+"TrackSize"="5,139"
+"TrackPath"="6,279"
+
+[HKEY_CURRENT_USER\Software\PowerISO\ViewSettings\SuperVideoCDView]
+"FileName"="0,311"
+"FileSize"="1,207"
+"FileType"="2,207"
+"FileModifyed"="3,311"
+"FilePath"="4,0"
+"FileLBA"="5,0"
+"TrackNumber"="0,139"
+"TrackTitle"="1,279"
+"TrackDuration"="2,279"
+"TrackPause"="3,139"
+"TrackSize"="4,139"
+
+[HKEY_CURRENT_USER\Software\PowerISO\ViewSettings\VideoCDView]
+"FileName"="0,311"
+"FileSize"="1,207"
+"FileType"="2,207"
+"FileModifyed"="3,311"
+"FilePath"="4,0"
+"FileLBA"="5,0"
+"TrackNumber"="0,139"
+"TrackTitle"="1,279"
+"TrackDuration"="2,279"
+"TrackPause"="3,139"
+"TrackSize"="4,139"
+		</File>
+		<File path="C:\Windows\Setup\Scripts\unattend-02.ps1">
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\AnyBurnPro]
+"Install_Dir_x64"="C:\\Program Files\\AnyBurn Pro"
+"Language"=dword:00000409
+"CheckUpgrade"=dword:00004ff9
+"USER"=hex:00,04,46,52,45,45,1f,e7,48,39,d5,2e,dd,79,1f,d5,40,e7,59,24,2d,2f
+		</File>
+		<File path="C:\Windows\Setup\Scripts\unattend-03.cmd">
+@echo off
+:: Auto-check for Administrator privileges
+net session &gt;nul 2&gt;&amp;1
+if %errorLevel% neq 0 (
+    echo Requesting Administrator privileges to apply registry fixes...
+    powershell -Command "Start-Process '%~f0' -Verb RunAs"
+    exit /b
+)
+
+set "DATA_DIR=%ProgramData%\RoboController"
+
+echo ===================================================
+echo Rewriting Robocopy Engine...
+echo ===================================================
+
+if not exist "%DATA_DIR%" mkdir "%DATA_DIR%"
+icacls "%DATA_DIR%" /grant Users:(OI)(CI)M /t /q &gt;nul
+
+:: 1. Rebuild the Advanced Helper Script
+&gt; "%DATA_DIR%\RoboAction.bat" echo @echo off
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo setlocal enabledelayedexpansion
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo set "dest=%%~1"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo set "base_dir=%%ProgramData%%\RoboController"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo set "src_file=!base_dir!\source.txt"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo set "move_flag=!base_dir!\move.flag"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo set "contents_flag=!base_dir!\contents.flag"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo.
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo if not exist "!src_file!" (
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo      echo Error: No source copied/moved yet.
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo      pause ^&amp; exit
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo )
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo set /p src=^&lt;"!src_file!"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo.
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo :: Strip all quotes, trailing spaces, and trailing slashes
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo set "src=!src:"=!"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo set "dest=!dest:"=!"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo if "!src:~-1!"==" " set "src=!src:~0,-1!"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo if "!src:~-1!"=="\" set "src=!src:~0,-1!"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo if "!dest:~-1!"=="\" set "dest=!dest:~0,-1!"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo.
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo :: Detect if Destination is a File. If yes, reroute to its parent folder.
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo for %%%%A in ("!dest!") do set "attr=%%%%~aA"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo if "!attr:~0,1!" neq "d" (
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo      for %%%%X in ("!dest!") do set "dest=%%%%~dpX"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo )
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo if "!dest:~-1!"=="\" set "dest=!dest:~0,-1!"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo.
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo :: Detect if Source is a File or a Folder
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo if exist "!src!\*" (
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo      :: It is a FOLDER. Check Paste behavior preference.
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo      if exist "!contents_flag!" (
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo           :: Paste Contents Only
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo           set "rc_src=!src!"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo           set "rc_dest=!dest!"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo      ) else (
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo           :: Paste Entire Folder (Container)
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo           for %%%%D in ("!src!") do set "folder_name=%%%%~nxD"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo           set "rc_src=!src!"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo           set "rc_dest=!dest!\!folder_name!"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo      )
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo      set "rc_file=*.*"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo      set "dir_flag=/E"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo ) else (
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo      :: It is a SINGLE FILE.
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo      for %%%%F in ("!src!") do (
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo           set "rc_src=%%%%~dpF"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo           set "rc_file=%%%%~nxF"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo      )
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo      if "!rc_src:~-1!"=="\" set "rc_src=!rc_src:~0,-1!"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo      set "rc_dest=!dest!"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo      set "dir_flag="
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo )
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo.
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo echo [ROBOCOPY SYNC ENGINE]
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo echo Copying From : "!rc_src!"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo echo Target Item  : "!rc_file!"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo echo Pasting To   : "!rc_dest!"
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo echo ---------------------------------------------------
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo.
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo if exist "!move_flag!" (
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo      echo [MODE: MOVE]
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo      robocopy "!rc_src!" "!rc_dest!" "!rc_file!" !dir_flag! /ETA /MT:8 /R:3 /W:5 /MOVE
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo ) else (
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo      echo [MODE: COPY]
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo      robocopy "!rc_src!" "!rc_dest!" "!rc_file!" !dir_flag! /ETA /MT:8 /R:3 /W:5
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo )
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo.
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo del "!move_flag!" 2^&gt;nul
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo del "!contents_flag!" 2^&gt;nul
+&gt;&gt; "%DATA_DIR%\RoboAction.bat" echo pause
+
+echo ===================================================
+echo Building Class-Based Cascading Menus...
+echo ===================================================
+
+:: --- 1. Aggressive Cleanup of Old Broken Menus ---
+set "BKG=HKEY_CLASSES_ROOT\Directory\Background\shell"
+set "FLD=HKEY_CLASSES_ROOT\Directory\shell"
+set "FIL=HKEY_CLASSES_ROOT\*\shell"
+
+for %%k in ("%BKG%" "%FLD%" "%FIL%") do (
+    reg delete "%%~k\RC_Menu" /f &gt;nul 2&gt;&amp;1
+    reg delete "%%~k\RoboContext" /f &gt;nul 2&gt;&amp;1
+    reg delete "%%~k\RobocopySync" /f &gt;nul 2&gt;&amp;1
+)
+reg delete "HKEY_CLASSES_ROOT\RoboClass_Bkg" /f &gt;nul 2&gt;&amp;1
+reg delete "HKEY_CLASSES_ROOT\RoboClass_Fld" /f &gt;nul 2&gt;&amp;1
+reg delete "HKEY_CLASSES_ROOT\RoboClass_Fil" /f &gt;nul 2&gt;&amp;1
+
+:: --- 2. Create the External Target Classes ---
+:: This isolates the sub-menus deep in the registry so Windows doesn't trip on them
+set "CBKG=HKEY_CLASSES_ROOT\RoboClass_Bkg\shell"
+set "CFLD=HKEY_CLASSES_ROOT\RoboClass_Fld\shell"
+set "CFIL=HKEY_CLASSES_ROOT\RoboClass_Fil\shell"
+
+:: Populate Class 1: Backgrounds (Uses %%V, has all options)
+reg add "%CBKG%\1_Copy" /ve /t REG_SZ /d "Copy" /f &gt;nul
+reg add "%CBKG%\1_Copy\command" /ve /t REG_SZ /d "cmd.exe /c echo %%V&gt;\"%DATA_DIR%\source.txt\" &amp;&amp; del \"%DATA_DIR%\move.flag\" 2&gt;nul" /f &gt;nul
+reg add "%CBKG%\2_Move" /ve /t REG_SZ /d "Move" /f &gt;nul
+reg add "%CBKG%\2_Move\command" /ve /t REG_SZ /d "cmd.exe /c echo %%V&gt;\"%DATA_DIR%\source.txt\" &amp;&amp; type nul &gt;\"%DATA_DIR%\move.flag\"" /f &gt;nul
+reg add "%CBKG%\3_Paste" /ve /t REG_SZ /d "Paste" /f &gt;nul
+reg add "%CBKG%\3_Paste\command" /ve /t REG_SZ /d "cmd.exe /c del \"%DATA_DIR%\contents.flag\" 2&gt;nul &amp;&amp; \"%DATA_DIR%\RoboAction.bat\" \"%%V\"" /f &gt;nul
+reg add "%CBKG%\4_PasteContents" /ve /t REG_SZ /d "Paste Contents Only" /f &gt;nul
+reg add "%CBKG%\4_PasteContents\command" /ve /t REG_SZ /d "cmd.exe /c type nul &gt;\"%DATA_DIR%\contents.flag\" &amp;&amp; \"%DATA_DIR%\RoboAction.bat\" \"%%V\"" /f &gt;nul
+
+:: Populate Class 2: Folders (Uses %%1, has all options)
+reg add "%CFLD%\1_Copy" /ve /t REG_SZ /d "Copy" /f &gt;nul
+reg add "%CFLD%\1_Copy\command" /ve /t REG_SZ /d "cmd.exe /c echo %%1&gt;\"%DATA_DIR%\source.txt\" &amp;&amp; del \"%DATA_DIR%\move.flag\" 2&gt;nul" /f &gt;nul
+reg add "%CFLD%\2_Move" /ve /t REG_SZ /d "Move" /f &gt;nul
+reg add "%CFLD%\2_Move\command" /ve /t REG_SZ /d "cmd.exe /c echo %%1&gt;\"%DATA_DIR%\source.txt\" &amp;&amp; type nul &gt;\"%DATA_DIR%\move.flag\"" /f &gt;nul
+reg add "%CFLD%\3_Paste" /ve /t REG_SZ /d "Paste" /f &gt;nul
+reg add "%CFLD%\3_Paste\command" /ve /t REG_SZ /d "cmd.exe /c del \"%DATA_DIR%\contents.flag\" 2&gt;nul &amp;&amp; \"%DATA_DIR%\RoboAction.bat\" \"%%1\"" /f &gt;nul
+reg add "%CFLD%\4_PasteContents" /ve /t REG_SZ /d "Paste Contents Only" /f &gt;nul
+reg add "%CFLD%\4_PasteContents\command" /ve /t REG_SZ /d "cmd.exe /c type nul &gt;\"%DATA_DIR%\contents.flag\" &amp;&amp; \"%DATA_DIR%\RoboAction.bat\" \"%%1\"" /f &gt;nul
+
+:: Populate Class 3: Files (Uses %%1, no Paste Contents)
+reg add "%CFIL%\1_Copy" /ve /t REG_SZ /d "Copy" /f &gt;nul
+reg add "%CFIL%\1_Copy\command" /ve /t REG_SZ /d "cmd.exe /c echo %%1&gt;\"%DATA_DIR%\source.txt\" &amp;&amp; del \"%DATA_DIR%\move.flag\" 2&gt;nul" /f &gt;nul
+reg add "%CFIL%\2_Move" /ve /t REG_SZ /d "Move" /f &gt;nul
+reg add "%CFIL%\2_Move\command" /ve /t REG_SZ /d "cmd.exe /c echo %%1&gt;\"%DATA_DIR%\source.txt\" &amp;&amp; type nul &gt;\"%DATA_DIR%\move.flag\"" /f &gt;nul
+reg add "%CFIL%\3_Paste" /ve /t REG_SZ /d "Paste" /f &gt;nul
+reg add "%CFIL%\3_Paste\command" /ve /t REG_SZ /d "cmd.exe /c del \"%DATA_DIR%\contents.flag\" 2&gt;nul &amp;&amp; \"%DATA_DIR%\RoboAction.bat\" \"%%1\"" /f &gt;nul
+
+:: --- 3. Link the Context Menus to the Classes ---
+set "LINK_BKG=%BKG%\RobocopySync"
+set "LINK_FLD=%FLD%\RobocopySync"
+set "LINK_FIL=%FIL%\RobocopySync"
+
+for %%k in ("%LINK_BKG%" "%LINK_FLD%" "%LINK_FIL%") do (
+    reg add "%%~k" /v MUIVerb /t REG_SZ /d "Robocopy Tools" /f &gt;nul
+    reg add "%%~k" /v Icon /t REG_SZ /d "imageres.dll,-5302" /f &gt;nul
+)
+
+:: This tells Windows "Go look in this background class to find the drop-down list"
+reg add "%LINK_BKG%" /v ExtendedSubCommandsKey /t REG_SZ /d "RoboClass_Bkg" /f &gt;nul
+reg add "%LINK_FLD%" /v ExtendedSubCommandsKey /t REG_SZ /d "RoboClass_Fld" /f &gt;nul
+reg add "%LINK_FIL%" /v ExtendedSubCommandsKey /t REG_SZ /d "RoboClass_Fil" /f &gt;nul
+
+echo ===================================================
+echo Setup Complete! Cascading classes successfully mapped.
+echo ===================================================
+		</File>
+		<File path="C:\Windows\Setup\Scripts\unattend-04.cmd">
+@echo off
+setlocal enabledelayedexpansion
+
+:: Auto-check for Administrator privileges for the installer script
+net session &gt;nul 2&gt;&amp;1
+if %errorLevel% neq 0 (
+    echo Requesting Administrator privileges to apply registry configurations...
+    powershell -Command "Start-Process '%~f0' -Verb RunAs"
+    exit /b
+)
+
+echo ===================================================
+echo Setting up Streamlined System Maintenance Hub...
+echo ===================================================
+
+set "DATA_DIR=%ProgramData%\SystemCleaner"
+if not exist "%DATA_DIR%" mkdir "%DATA_DIR%"
+icacls "%DATA_DIR%" /grant Users:(OI)(CI)R /t /q &gt;nul
+
+:: -----------------------------------------------------
+:: 1. Rebuild the Universal Cleanup Engine Batch File
+:: -----------------------------------------------------
+&gt; "%DATA_DIR%\TempCleaner.bat" echo @echo off
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo echo ==========================================
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo echo System Cleanup Engine
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo echo ==========================================
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo net session ^&gt;nul 2^&gt;^&amp;1
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo if %%errorLevel%% equ 0 (
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      echo [Admin Privileges Detected] Cleaning system locations...
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      echo.
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      echo 1. Clearing Windows Temp...
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      del /s /f /q "C:\Windows\Temp\*.*" 2^&gt;nul
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      for /D %%%%p in ("C:\Windows\Temp\*") do rmdir /S /Q "%%%%p" 2^&gt;nul
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo.
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      echo 2. Clearing User Temp...
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      del /s /f /q "%%temp%%\*.*" 2^&gt;nul
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      for /D %%%%p in ("%%temp%%\*") do rmdir /S /Q "%%%%p" 2^&gt;nul
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo.
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      echo 3. Clearing Prefetch...
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      del /s /f /q "C:\Windows\Prefetch\*.*" 2^&gt;nul
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo.
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      echo 4. Clearing Windows Update Cache...
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      net stop wuauserv ^&gt;nul 2^&gt;^&amp;1
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      del /s /f /q "C:\Windows\SoftwareDistribution\Download\*.*" 2^&gt;nul
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      for /D %%%%p in ("C:\Windows\SoftwareDistribution\Download\*") do rmdir /S /Q "%%%%p" 2^&gt;nul
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      net start wuauserv ^&gt;nul 2^&gt;^&amp;1
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo.
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      echo 5. Emptying System Recycle Bin...
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      rd /s /q %%systemdrive%%\$Recycle.bin 2^&gt;nul
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo ) else (
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      echo [Standard User Mode] Cleaning local files only...
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      echo.
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      echo 1. Clearing User Temp...
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      del /s /f /q "%%temp%%\*.*" 2^&gt;nul
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      for /D %%%%p in ("%%temp%%\*") do rmdir /S /Q "%%%%p" 2^&gt;nul
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo.
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      echo 2. Emptying User Recycle Bin...
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo      powershell -NoProfile -Command "Clear-RecycleBin -Force -ErrorAction SilentlyContinue"
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo )
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo echo.
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo echo Cleanup Complete!
+&gt;&gt; "%DATA_DIR%\TempCleaner.bat" echo timeout /t 3 ^&gt;nul
+
+:: -----------------------------------------------------
+:: 2. Registry Cascading Architecture Engine
+:: -----------------------------------------------------
+set "BKG_BASE=HKCU\Software\Classes\Directory\Background\shell"
+set "HUB_KEY=%BKG_BASE%\MaintenanceHub"
+set "DB=HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell"
+
+:: Clear parent menu key to deploy fresh structure smoothly
+reg delete "%HUB_KEY%" /f &gt;nul 2&gt;&amp;1
+
+:: Create Parent Context Menu
+reg add "%HUB_KEY%" /v "MUIVerb" /t REG_SZ /d "System Maintenance Hub" /f &gt;nul
+reg add "%HUB_KEY%" /v "Icon" /t REG_SZ /d "shell32.dll,239" /f &gt;nul
+:: FIXED: Escaped the pipe character (^|) so the script doesn't break here
+reg add "%HUB_KEY%" /v "SubCommands" /t REG_SZ /d "CleanTemp;FlushDNS;EmptyBin;RestartExplorer;KillFrozen;^|;SysShutdown;SysRestart" /f &gt;nul
+
+:: --- Build Subcommands Database Entries ---
+
+:: 1. Clean Temp Files
+reg add "%DB%\CleanTemp" /ve /t REG_SZ /d "Clean Temporary Files" /f &gt;nul
+reg add "%DB%\CleanTemp" /v "Icon" /t REG_SZ /d "cleanmgr.exe,0" /f &gt;nul
+reg add "%DB%\CleanTemp" /v "HasLUAShield" /t REG_SZ /d "" /f &gt;nul
+reg add "%DB%\CleanTemp\command" /ve /t REG_SZ /d "powershell -WindowStyle Hidden -Command \"Start-Process cmd -ArgumentList '/c \"%DATA_DIR%\TempCleaner.bat\"' -Verb RunAs\"" /f &gt;nul
+
+:: 2. Flush DNS
+reg add "%DB%\FlushDNS" /ve /t REG_SZ /d "Flush &amp; Reset Network DNS" /f &gt;nul
+reg add "%DB%\FlushDNS" /v "Icon" /t REG_SZ /d "netcenter.dll,63" /f &gt;nul
+reg add "%DB%\FlushDNS\command" /ve /t REG_SZ /d "cmd.exe /c echo Resetting Connections... &amp;&amp; ipconfig /flushdns &amp;&amp; netsh int ip reset &amp;&amp; echo DNS Flushed! &amp;&amp; timeout /t 2" /f &gt;nul
+
+:: 3. Recycle Bin
+reg add "%DB%\EmptyBin" /ve /t REG_SZ /d "Empty Recycle Bin" /f &gt;nul
+reg add "%DB%\EmptyBin" /v "Icon" /t REG_SZ /d "shell32.dll,31" /f &gt;nul
+reg add "%DB%\EmptyBin\command" /ve /t REG_SZ /d "powershell -NoProfile -Command \"Clear-RecycleBin -Force -ErrorAction SilentlyContinue\"" /f &gt;nul
+
+:: 4. Restart Explorer
+reg add "%DB%\RestartExplorer" /ve /t REG_SZ /d "Restart Windows Explorer UI" /f &gt;nul
+reg add "%DB%\RestartExplorer" /v "Icon" /t REG_SZ /d "explorer.exe,0" /f &gt;nul
+reg add "%DB%\RestartExplorer\command" /ve /t REG_SZ /d "cmd.exe /c taskkill /f /im explorer.exe &amp;&amp; start explorer.exe" /f &gt;nul
+
+:: 5. Kill Frozen Tasks
+reg add "%DB%\KillFrozen" /ve /t REG_SZ /d "Force Kill Unresponsive Apps" /f &gt;nul
+reg add "%DB%\KillFrozen" /v "Icon" /t REG_SZ /d "taskmgr.exe,0" /f &gt;nul
+reg add "%DB%\KillFrozen\command" /ve /t REG_SZ /d "cmd.exe /c taskkill /f /fi \"status eq not responding\" &amp;&amp; echo Frozen tasks terminated! &amp;&amp; timeout /t 2" /f &gt;nul
+
+:: 6. Power: Shutdown
+reg add "%DB%\SysShutdown" /ve /t REG_SZ /d "Shutdown System" /f &gt;nul
+reg add "%DB%\SysShutdown" /v "Icon" /t REG_SZ /d "shell32.dll,27" /f &gt;nul
+reg add "%DB%\SysShutdown\command" /ve /t REG_SZ /d "shutdown.exe /s /t 0 /f" /f &gt;nul
+
+:: 7. Power: Restart
+reg add "%DB%\SysRestart" /ve /t REG_SZ /d "Restart System" /f &gt;nul
+reg add "%DB%\SysRestart" /v "Icon" /t REG_SZ /d "shell32.dll,238" /f &gt;nul
+reg add "%DB%\SysRestart\command" /ve /t REG_SZ /d "shutdown.exe /r /t 0 /f" /f &gt;nul
+
+echo ===================================================
+echo Implementation Complete! 
+echo Right-click the desktop background to run your menu.
+echo ===================================================
+		</File>
+		<File path="C:\Windows\Setup\Scripts\unattend-05.cmd">
+@echo off
+echo ===================================================
+echo Initializing Master Context Menu Setup...
+echo ===================================================
+
+:: Check for administrative privileges silently
+net session &gt;nul 2&gt;&amp;1
+if %errorLevel% equ 0 (
+    echo Running as Administrator. Installing for ALL users.
+    set "IS_ADMIN=1"
+    set "REG_PATH=HKEY_LOCAL_MACHINE\Software\Classes\Directory\Background\shell"
+    set "CS_PATH=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell"
+    set "VBS_DIR=%ProgramData%\ContextMenuScripts"
+) else (
+    echo Running as Standard User. Installing for CURRENT user only.
+    set "IS_ADMIN=0"
+    set "REG_PATH=HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell"
+    set "CS_PATH=HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell"
+    set "VBS_DIR=%LOCALAPPDATA%\ContextMenuScripts"
+)
+
+:: Define paths for dynamic cleanup
+set "USER_REG=HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell"
+set "USER_CS=HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell"
+
+echo.
+echo ===================================================
+echo 1. Generating VBScript Utility (Files and Folders)...
+echo ===================================================
+
+if not exist "%VBS_DIR%" mkdir "%VBS_DIR%"
+set "VBSFile=%VBS_DIR%\CreateSmartFile.vbs"
+
+&gt; "%VBSFile%" echo Set objArgs = WScript.Arguments
+&gt;&gt; "%VBSFile%" echo If objArgs.Count ^&lt; 3 Then WScript.Quit
+&gt;&gt; "%VBSFile%" echo targetFolder = objArgs(0)
+&gt;&gt; "%VBSFile%" echo fileExt = objArgs(1)
+&gt;&gt; "%VBSFile%" echo defaultName = objArgs(2)
+&gt;&gt; "%VBSFile%" echo If fileExt = "FOLDER" Then
+&gt;&gt; "%VBSFile%" echo     itemName = InputBox("Enter folder name:", "Create New Folder", defaultName)
+&gt;&gt; "%VBSFile%" echo     If Trim(itemName) = "" Then WScript.Quit
+&gt;&gt; "%VBSFile%" echo     Set fso = CreateObject("Scripting.FileSystemObject")
+&gt;&gt; "%VBSFile%" echo     finalPath = fso.BuildPath(targetFolder, itemName)
+&gt;&gt; "%VBSFile%" echo     If Not fso.FolderExists(finalPath) Then fso.CreateFolder(finalPath)
+&gt;&gt; "%VBSFile%" echo Else
+&gt;&gt; "%VBSFile%" echo     itemName = InputBox("Enter filename (without extension):", "Create New " ^&amp; UCase(fileExt) ^&amp; " File", defaultName)
+&gt;&gt; "%VBSFile%" echo     If Trim(itemName) = "" Then WScript.Quit
+&gt;&gt; "%VBSFile%" echo     Set fso = CreateObject("Scripting.FileSystemObject")
+&gt;&gt; "%VBSFile%" echo     finalPath = fso.BuildPath(targetFolder, itemName ^&amp; fileExt)
+&gt;&gt; "%VBSFile%" echo     Set newFile = fso.CreateTextFile(finalPath, True)
+&gt;&gt; "%VBSFile%" echo     newFile.Close
+&gt;&gt; "%VBSFile%" echo End If
+
+echo VBScript created safely at: %VBSFile%
+
+echo.
+echo ===================================================
+echo 2. Creating "Terminal Options" Dropdown Menu...
+echo ===================================================
+
+reg delete "%REG_PATH%\OpenCMDHere" /f &gt;nul 2&gt;&amp;1
+reg delete "%REG_PATH%\OpenPSHere" /f &gt;nul 2&gt;&amp;1
+reg delete "%REG_PATH%\OpenCMDAdminHere" /f &gt;nul 2&gt;&amp;1
+reg delete "%REG_PATH%\OpenPSAdminHere" /f &gt;nul 2&gt;&amp;1
+
+reg add "%REG_PATH%\TerminalMenu" /v "MUIVerb" /t REG_SZ /d "Terminal Options" /f &gt;nul
+reg add "%REG_PATH%\TerminalMenu" /v "Icon" /t REG_SZ /d "cmd.exe" /f &gt;nul
+
+if "%IS_ADMIN%"=="1" (
+    reg add "%REG_PATH%\TerminalMenu" /v "SubCommands" /t REG_SZ /d "OpenCMD;OpenPS;OpenCMDAdmin;OpenPSAdmin" /f &gt;nul
+) else (
+    reg add "%REG_PATH%\TerminalMenu" /v "SubCommands" /t REG_SZ /d "OpenCMD;OpenPS" /f &gt;nul
+)
+
+reg add "%CS_PATH%\OpenCMD" /ve /t REG_SZ /d "Open CMD here" /f &gt;nul
+reg add "%CS_PATH%\OpenCMD" /v "Icon" /t REG_SZ /d "cmd.exe" /f &gt;nul
+reg add "%CS_PATH%\OpenCMD\command" /ve /t REG_SZ /d "cmd.exe /s /k pushd \"%%V\"" /f &gt;nul
+
+reg add "%CS_PATH%\OpenPS" /ve /t REG_SZ /d "Open PowerShell here" /f &gt;nul
+reg add "%CS_PATH%\OpenPS" /v "Icon" /t REG_SZ /d "powershell.exe" /f &gt;nul
+reg add "%CS_PATH%\OpenPS\command" /ve /t REG_SZ /d "powershell.exe -NoExit -Command \"Set-Location '%%V'\"" /f &gt;nul
+
+if "%IS_ADMIN%"=="1" (
+    reg add "%CS_PATH%\OpenCMDAdmin" /ve /t REG_SZ /d "Open CMD (Admin)" /f &gt;nul
+    reg add "%CS_PATH%\OpenCMDAdmin" /v "Icon" /t REG_SZ /d "cmd.exe" /f &gt;nul
+    reg add "%CS_PATH%\OpenCMDAdmin" /v "HasLUAShield" /t REG_SZ /d "" /f &gt;nul
+    reg add "%CS_PATH%\OpenCMDAdmin\command" /ve /t REG_SZ /d "powershell.exe -WindowStyle Hidden -NoProfile -Command \"Start-Process -Verb RunAs cmd.exe\"" /f &gt;nul
+
+    reg add "%CS_PATH%\OpenPSAdmin" /ve /t REG_SZ /d "Open PowerShell (Admin)" /f &gt;nul
+    reg add "%CS_PATH%\OpenPSAdmin" /v "Icon" /t REG_SZ /d "powershell.exe" /f &gt;nul
+    reg add "%CS_PATH%\OpenPSAdmin" /v "HasLUAShield" /t REG_SZ /d "" /f &gt;nul
+    reg add "%CS_PATH%\OpenPSAdmin\command" /ve /t REG_SZ /d "powershell.exe -WindowStyle Hidden -NoProfile -Command \"Start-Process -Verb RunAs powershell.exe\"" /f &gt;nul
+)
+
+echo.
+echo ===================================================
+echo 3. Creating "Create New..." Dropdown Menu...
+echo ===================================================
+
+reg add "%REG_PATH%\CreateNewFileMenu" /v "MUIVerb" /t REG_SZ /d "Create New..." /f &gt;nul
+reg add "%REG_PATH%\CreateNewFileMenu" /v "Icon" /t REG_SZ /d "imageres.dll,-2" /f &gt;nul
+reg add "%REG_PATH%\CreateNewFileMenu" /v "SubCommands" /t REG_SZ /d "CreateNewFolder;CreateNewTxt;CreateNewBat;CreateNewCmd;CreateNewPs1;CreateNewReg;CreateNewXml;CreateNewIni;CreateNewJson;CreateNewMd;CreateNewCsv;CreateNewHtml" /f &gt;nul
+
+reg add "%CS_PATH%\CreateNewFolder" /ve /t REG_SZ /d "Folder" /f &gt;nul
+reg add "%CS_PATH%\CreateNewFolder" /v "Icon" /t REG_SZ /d "imageres.dll,-113" /f &gt;nul
+reg add "%CS_PATH%\CreateNewFolder\command" /ve /t REG_SZ /d "wscript.exe \"%VBSFile%\" \"%%V\" \"FOLDER\" \"New Folder\"" /f &gt;nul
+
+reg add "%CS_PATH%\CreateNewTxt" /ve /t REG_SZ /d "Text Document (.txt)" /f &gt;nul
+reg add "%CS_PATH%\CreateNewTxt\command" /ve /t REG_SZ /d "wscript.exe \"%VBSFile%\" \"%%V\" \".txt\" \"New Text Document\"" /f &gt;nul
+
+reg add "%CS_PATH%\CreateNewBat" /ve /t REG_SZ /d "Batch Script (.bat)" /f &gt;nul
+reg add "%CS_PATH%\CreateNewBat\command" /ve /t REG_SZ /d "wscript.exe \"%VBSFile%\" \"%%V\" \".bat\" \"New Script\"" /f &gt;nul
+
+reg add "%CS_PATH%\CreateNewCmd" /ve /t REG_SZ /d "Command Script (.cmd)" /f &gt;nul
+reg add "%CS_PATH%\CreateNewCmd\command" /ve /t REG_SZ /d "wscript.exe \"%VBSFile%\" \"%%V\" \".cmd\" \"New Script\"" /f &gt;nul
+
+reg add "%CS_PATH%\CreateNewPs1" /ve /t REG_SZ /d "PowerShell Script (.ps1)" /f &gt;nul
+reg add "%CS_PATH%\CreateNewPs1\command" /ve /t REG_SZ /d "wscript.exe \"%VBSFile%\" \"%%V\" \".ps1\" \"New Script\"" /f &gt;nul
+
+reg add "%CS_PATH%\CreateNewReg" /ve /t REG_SZ /d "Registry File (.reg)" /f &gt;nul
+reg add "%CS_PATH%\CreateNewReg\command" /ve /t REG_SZ /d "wscript.exe \"%VBSFile%\" \"%%V\" \".reg\" \"New Registry File\"" /f &gt;nul
+
+reg add "%CS_PATH%\CreateNewXml" /ve /t REG_SZ /d "XML Document (.xml)" /f &gt;nul
+reg add "%CS_PATH%\CreateNewXml\command" /ve /t REG_SZ /d "wscript.exe \"%VBSFile%\" \"%%V\" \".xml\" \"New XML Document\"" /f &gt;nul
+
+reg add "%CS_PATH%\CreateNewIni" /ve /t REG_SZ /d "Configuration File (.ini)" /f &gt;nul
+reg add "%CS_PATH%\CreateNewIni\command" /ve /t REG_SZ /d "wscript.exe \"%VBSFile%\" \"%%V\" \".ini\" \"New Config File\"" /f &gt;nul
+
+reg add "%CS_PATH%\CreateNewJson" /ve /t REG_SZ /d "JSON File (.json)" /f &gt;nul
+reg add "%CS_PATH%\CreateNewJson\command" /ve /t REG_SZ /d "wscript.exe \"%VBSFile%\" \"%%V\" \".json\" \"New JSON File\"" /f &gt;nul
+
+reg add "%CS_PATH%\CreateNewMd" /ve /t REG_SZ /d "Markdown File (.md)" /f &gt;nul
+reg add "%CS_PATH%\CreateNewMd\command" /ve /t REG_SZ /d "wscript.exe \"%VBSFile%\" \"%%V\" \".md\" \"New Markdown File\"" /f &gt;nul
+
+reg add "%CS_PATH%\CreateNewCsv" /ve /t REG_SZ /d "CSV File (.csv)" /f &gt;nul
+reg add "%CS_PATH%\CreateNewCsv\command" /ve /t REG_SZ /d "wscript.exe \"%VBSFile%\" \"%%V\" \".csv\" \"New CSV File\"" /f &gt;nul
+
+reg add "%CS_PATH%\CreateNewHtml" /ve /t REG_SZ /d "HTML Document (.html)" /f &gt;nul
+reg add "%CS_PATH%\CreateNewHtml\command" /ve /t REG_SZ /d "wscript.exe \"%VBSFile%\" \"%%V\" \".html\" \"New HTML Document\"" /f &gt;nul
+
+echo.
+echo ===================================================
+echo 4. Creating "This PC" Shortcut...
+echo ===================================================
+
+:: Delete the old cascading menu components
+reg delete "HKEY_LOCAL_MACHINE\Software\Classes\Directory\Background\shell\SystemDrivesMenu" /f &gt;nul 2&gt;&amp;1
+reg delete "%USER_REG%\SystemDrivesMenu" /f &gt;nul 2&gt;&amp;1
+reg delete "%USER_CS%\RefreshDriveList" /f &gt;nul 2&gt;&amp;1
+reg delete "%USER_CS%\OpenThisPC" /f &gt;nul 2&gt;&amp;1
+
+:: Create the direct "This PC" shortcut
+reg add "%REG_PATH%\OpenThisPC" /ve /t REG_SZ /d "This PC" /f &gt;nul
+reg add "%REG_PATH%\OpenThisPC" /v "Icon" /t REG_SZ /d "imageres.dll,-109" /f &gt;nul
+reg add "%REG_PATH%\OpenThisPC\command" /ve /t REG_SZ /d "explorer.exe shell:::{20D04FE0-3AEA-1069-A2D8-08002B30309D}" /f &gt;nul
+
+echo.
+echo ===================================================
+echo 5. Creating "Power Options" Dropdown Menu...
+echo ===================================================
+
+reg add "%REG_PATH%\PowerMenu" /v "MUIVerb" /t REG_SZ /d "Power Options" /f &gt;nul
+reg add "%REG_PATH%\PowerMenu" /v "Icon" /t REG_SZ /d "shell32.dll,-328" /f &gt;nul
+reg add "%REG_PATH%\PowerMenu" /v "Position" /t REG_SZ /d "Bottom" /f &gt;nul
+reg add "%REG_PATH%\PowerMenu" /v "SubCommands" /t REG_SZ /d "PowerLock;PowerSignOut;PowerSleep;PowerRestart;PowerShutdown" /f &gt;nul
+
+reg add "%CS_PATH%\PowerLock" /ve /t REG_SZ /d "Lock" /f &gt;nul
+reg add "%CS_PATH%\PowerLock" /v "Icon" /t REG_SZ /d "shell32.dll,-325" /f &gt;nul
+reg add "%CS_PATH%\PowerLock\command" /ve /t REG_SZ /d "rundll32.exe user32.dll,LockWorkStation" /f &gt;nul
+
+reg add "%CS_PATH%\PowerSignOut" /ve /t REG_SZ /d "Sign Out" /f &gt;nul
+reg add "%CS_PATH%\PowerSignOut" /v "Icon" /t REG_SZ /d "shell32.dll,-326" /f &gt;nul
+reg add "%CS_PATH%\PowerSignOut\command" /ve /t REG_SZ /d "shutdown.exe /l" /f &gt;nul
+
+reg add "%CS_PATH%\PowerSleep" /ve /t REG_SZ /d "Sleep" /f &gt;nul
+reg add "%CS_PATH%\PowerSleep" /v "Icon" /t REG_SZ /d "shell32.dll,-331" /f &gt;nul
+reg add "%CS_PATH%\PowerSleep\command" /ve /t REG_SZ /d "rundll32.exe powrprof.dll,SetSuspendState 0,1,0" /f &gt;nul
+
+reg add "%CS_PATH%\PowerRestart" /ve /t REG_SZ /d "Restart" /f &gt;nul
+reg add "%CS_PATH%\PowerRestart" /v "Icon" /t REG_SZ /d "shell32.dll,-238" /f &gt;nul
+reg add "%CS_PATH%\PowerRestart\command" /ve /t REG_SZ /d "shutdown.exe /r /t 0 /f" /f &gt;nul
+
+reg add "%CS_PATH%\PowerShutdown" /ve /t REG_SZ /d "Shut Down" /f &gt;nul
+reg add "%CS_PATH%\PowerShutdown" /v "Icon" /t REG_SZ /d "shell32.dll,-328" /f &gt;nul
+reg add "%CS_PATH%\PowerShutdown\command" /ve /t REG_SZ /d "shutdown.exe /s /t 0 /f" /f &gt;nul
+
+echo.
+echo Setup completed successfully!
+		</File>
+		<File path="C:\Windows\Setup\Scripts\unattend-06.reg">
+Windows Registry Editor Version 5.00
+
+; =========================================================
+; Chrome Extensions (Auto-Install with Manual Toggle)
+; =========================================================
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
+"ExtensionSettings"="{\"bgnkhhnnamicmpeenaelnjfhikgbkllg\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://clients2.google.com/service/update2/crx\"},\"mpnlkmlkncncpgnnkmkgoobfpnjmblnk\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://clients2.google.com/service/update2/crx\"},\"ponfpcnoihfmfllpaingbgckeeldkhle\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://clients2.google.com/service/update2/crx\"},\"okpidcojinmlaakglciglbpcpajaibco\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://clients2.google.com/service/update2/crx\"},\"epcnnfbjfcgphgdmggkamkmgojdagdnn\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://clients2.google.com/service/update2/crx\"},\"ojplmecpdpgccookcobabopnaifgidhf\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://clients2.google.com/service/update2/crx\"},\"gbkeegbaiigmenfmjfclcdgdpimamgkj\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://clients2.google.com/service/update2/crx\"}}"
+
+; =========================================================
+; Brave Extensions (Auto-Install with Manual Toggle)
+; =========================================================
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\BraveSoftware\Brave]
+"ExtensionSettings"="{\"bgnkhhnnamicmpeenaelnjfhikgbkllg\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://clients2.google.com/service/update2/crx\"},\"mpnlkmlkncncpgnnkmkgoobfpnjmblnk\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://clients2.google.com/service/update2/crx\"},\"ponfpcnoihfmfllpaingbgckeeldkhle\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://clients2.google.com/service/update2/crx\"},\"okpidcojinmlaakglciglbpcpajaibco\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://clients2.google.com/service/update2/crx\"},\"epcnnfbjfcgphgdmggkamkmgojdagdnn\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://clients2.google.com/service/update2/crx\"},\"ojplmecpdpgccookcobabopnaifgidhf\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://clients2.google.com/service/update2/crx\"},\"gbkeegbaiigmenfmjfclcdgdpimamgkj\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://clients2.google.com/service/update2/crx\"}}"
+
+; =========================================================
+; Chromium Extensions (Auto-Install with Manual Toggle)
+; =========================================================
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Chromium]
+"ExtensionSettings"="{\"bgnkhhnnamicmpeenaelnjfhikgbkllg\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://clients2.google.com/service/update2/crx\"},\"mpnlkmlkncncpgnnkmkgoobfpnjmblnk\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://clients2.google.com/service/update2/crx\"},\"ponfpcnoihfmfllpaingbgckeeldkhle\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://clients2.google.com/service/update2/crx\"},\"okpidcojinmlaakglciglbpcpajaibco\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://clients2.google.com/service/update2/crx\"},\"epcnnfbjfcgphgdmggkamkmgojdagdnn\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://clients2.google.com/service/update2/crx\"}}"
+
+; =========================================================
+; Microsoft Edge Extensions (Auto-Install with Manual Toggle)
+; =========================================================
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"ExtensionSettings"="{\"odfafepnkmbhccpbejgmiehpchacaeak\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://edge.microsoft.com/extensionwebstorebase/v1/crx\"},\"pdffkfellgipmhklpdmokmckkkfcopbh\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://edge.microsoft.com/extensionwebstorebase/v1/crx\"},\"lmakhegealefmkbnagibiebebncemhgn\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://edge.microsoft.com/extensionwebstorebase/v1/crx\"},\"bdaafgjhhjkdplpffldcncdignokfkbo\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://edge.microsoft.com/extensionwebstorebase/v1/crx\"},\"dlgfaleeejmphhnemjgiaekdbonkagkd\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://edge.microsoft.com/extensionwebstorebase/v1/crx\"},\"gdgnlfdenkmjcfgjpnookbglpndleahm\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://edge.microsoft.com/extensionwebstorebase/v1/crx\"},\"gbkeegbaiigmenfmjfclcdgdpimamgkj\":{\"installation_mode\":\"normal_installed\",\"update_url\":\"https://edge.microsoft.com/extensionwebstorebase/v1/crx\"}}"
+		</File>
+		<File path="C:\Windows\Setup\Scripts\unattend-07.ps1">
+# ==============================================================================
+# DYNAMIC PC NAME GENERATOR (15-Char PC Name + Full Model Name)
+# ==============================================================================
+
+# 1. Define lists (Apple removed from Fruits)
+$Weapons = @("Trishula", "Sudarshana", "Kaumodaki", "Panchajanya", "Pinaka", "Sharanga", "Gandiva", "Vijaya", "Nandaka", "Khatvanga", "Pasha", "Ankusha", "Vajra", "Parashu", "Agneyastra", "Narayanastra", "Brahmastra", "Bhargavastra", "Nagapasha", "Garudastra", "Vayavyastra", "Suryastra", "Bhaumastra", "Varunastra", "Indrastra", "Rudrastra", "Yamadanda", "Kaladanda", "Shakti", "Asi", "Dhanush", "Chakra", "Gada", "Hala", "Musala", "Mudgara", "Tomara", "Pattisha", "Parigha", "Kripana", "Kunta", "Trishul", "Astra", "Shula", "Khanda", "Vel", "Aruval", "Katar", "Pata", "BaghNakh", "Urumi")
+$Animals = @("Lion", "Tiger", "Elephant", "Leopard", "Cheetah", "Jaguar", "Panther", "Wolf", "Fox", "Bear", "Deer", "Moose", "Elk", "Bison", "Buffalo", "Rhino", "Hippo", "Giraffe", "Zebra", "Camel", "Llama", "Alpaca", "Kangaroo", "Koala", "Wombat", "Gorilla", "Monkey", "Baboon", "Lemur", "Sloth", "Panda", "Racoon", "Badger", "Beaver", "Otter", "Seal", "Walrus", "Dolphin", "Whale", "Shark", "Ray", "Turtle", "Snake", "Lizard", "Frog", "Toad", "Croc", "Horse", "Mule", "Donkey", "Puma")
+$Fruits  = @("Mango", "Banana", "Orange", "Grape", "Lemon", "Lime", "Cherry", "Peach", "Plum", "Pear", "Kiwi", "Melon", "Papaya", "Fig", "Date", "Guava", "Lychee", "Olive", "Coconut", "Berry", "Raspberry", "Blueberry", "Blackberry", "Cranberry", "Strawberry", "Pineapple", "Pomegranate", "Avocado", "Tomato", "Pumpkin", "Squash", "Zucchini", "Cucumber", "Eggplant", "Pepper", "Quince", "Apricot", "Nectarine", "Grapefruit", "Pomelo", "Tangerine", "Mandarin", "Clementine", "Kumquat", "Durian", "Jackfruit", "Tamarind", "Persimmon", "Mulberry")
+$Birds   = @("Peacock", "Parrot", "Pigeon", "Crow", "Raven", "Swan", "Goose", "Duck", "Eagle", "Hawk", "Falcon", "Owl", "Kite", "Vulture", "Condor", "Osprey", "Heron", "Crane", "Stork", "Ibis", "Flamingo", "Pelican", "Penguin", "Puffin", "Gull", "Tern", "Albatross", "Petrel", "Loon", "Grebe", "Emu", "Ostrich", "Rhea", "Cassowary", "Macaw", "Cockatoo", "Toucan", "Hornbill", "Woodpecker", "Kingfisher", "Roller", "Hoopoe", "Swift", "Swallow", "Martin", "Lark", "Pipit", "Wagtail", "Robin", "Finch")
+
+$AllNames = $Weapons + $Animals + $Fruits + $Birds
+
+# 2. Get Hardware Info
+$SysInfo = Get-CimInstance -ClassName Win32_ComputerSystem
+$Manufacturer = $SysInfo.Manufacturer.Split(" ")[0]
+# Clean model name (remove special characters)
+$ModelClean = ($SysInfo.Model -replace '[^a-zA-Z0-9]', '')
+
+# 3. Generate PC Name: Theme-Manufacturer (Strict 15-char limit)
+$RandomName = $AllNames | Get-Random
+$CombinedName = "$RandomName-$Manufacturer"
+if ($CombinedName.Length -gt 15) { $NewPCName = $RandomName.Substring(0, 15) } else { $NewPCName = $CombinedName }
+
+# 4. Generate Model Name: SLNGNR-Model (NO LIMIT)
+$ModelName = "SLNGNR-$ModelClean"
+
+# 5. Apply Registry Changes
+Write-Host "Setting Computer Name to: $NewPCName" -ForegroundColor Cyan
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\ComputerName\ComputerName" /v ComputerName /t REG_SZ /d $NewPCName /f | Out-Null
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "NV Hostname" /t REG_SZ /d $NewPCName /f | Out-Null
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v Hostname /t REG_SZ /d $NewPCName /f | Out-Null
+
+Write-Host "Setting System Model to: $ModelName" -ForegroundColor Cyan
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\SystemInformation" /v SystemProductName /t REG_SZ /d $ModelName /f | Out-Null
+
+Write-Host "Success. Restart required." -ForegroundColor Green
+		</File>
+		<File path="C:\Windows\Setup\Scripts\Specialize.ps1">
+$scripts = @(
+	{
+		&amp; 'C:\Windows\Setup\Scripts\GetComputerName.ps1' &gt; 'C:\Windows\Setup\Scripts\ComputerName.txt';
+		Start-Process -FilePath ( Get-Process -Id $PID ).Path -ArgumentList '-ExecutionPolicy "Unrestricted" -NoProfile -File "C:\Windows\Setup\Scripts\SetComputerName.ps1"' -WindowStyle 'Hidden';
+		Start-Sleep -Seconds 10;
+	};
+	{
+		reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OOBE" /v BypassNRO /t REG_DWORD /d 1 /f;
+	};
+	{
+		Remove-Item -LiteralPath 'Registry::HKLM\Software\Microsoft\WindowsUpdate\Orchestrator\UScheduler_Oobe\DevHomeUpdate' -Force -ErrorAction 'SilentlyContinue';
+	};
+	{
+		Remove-Item -LiteralPath 'C:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\OneDrive.lnk', 'C:\Windows\System32\OneDriveSetup.exe', 'C:\Windows\SysWOW64\OneDriveSetup.exe' -ErrorAction 'Continue';
+	};
+	{
+		Remove-Item -LiteralPath 'Registry::HKLM\Software\Microsoft\WindowsUpdate\Orchestrator\UScheduler_Oobe\OutlookUpdate' -Force -ErrorAction 'SilentlyContinue';
+	};
+	{
+		reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Communications" /v ConfigureChatAutoInstall /t REG_DWORD /d 0 /f;
+	};
+	{
+		&amp; 'C:\Windows\Setup\Scripts\RemovePackages.ps1';
+	};
+	{
+		&amp; 'C:\Windows\Setup\Scripts\RemoveCapabilities.ps1';
+	};
+	{
+		&amp; 'C:\Windows\Setup\Scripts\RemoveFeatures.ps1';
+	};
+	{
+		net.exe accounts /maxpwage:UNLIMITED;
+	};
+	{
+		reg.exe add "HKLM\Software\Policies\Microsoft\Windows\CloudContent" /v "DisableCloudOptimizedContent" /t REG_DWORD /d 1 /f;
+		[System.Diagnostics.EventLog]::CreateEventSource( 'UnattendGenerator', 'Application' );
+	};
+	{
+		Register-ScheduledTask -TaskName 'UnlockStartLayout' -Xml $( Get-Content -LiteralPath 'C:\Windows\Setup\Scripts\UnlockStartLayout.xml' -Raw );
+	};
+	{
+		reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\CI\Policy" /v VerifiedAndReputablePolicyState /t REG_DWORD /d 0 /f;
+	};
+	{
+		reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /v SmartScreenEnabled /t REG_SZ /d "Off" /f;
+		reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WTDS\Components" /v ServiceEnabled /t REG_DWORD /d 0 /f;
+		reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WTDS\Components" /v NotifyMalicious /t REG_DWORD /d 0 /f;
+		reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WTDS\Components" /v NotifyPasswordReuse /t REG_DWORD /d 0 /f;
+		reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WTDS\Components" /v NotifyUnsafeApp /t REG_DWORD /d 0 /f;
+		reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender Security Center\Systray" /v HideSystray /t REG_DWORD /d 1 /f;
+	};
+	{
+		reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v EnableLUA /t REG_DWORD /d 0 /f
+	};
+	{
+		reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\FileSystem" /v LongPathsEnabled /t REG_DWORD /d 1 /f
+	};
+	{
+		netsh.exe advfirewall firewall set rule group="@FirewallAPI.dll,-28752" new enable=Yes;
+		reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f;
+	};
+	{
+		icacls.exe C:\ /remove:g "*S-1-5-11"
+	};
+	{
+		Set-ExecutionPolicy -Scope 'LocalMachine' -ExecutionPolicy 'RemoteSigned' -Force;
+	};
+	{
+		fsutil.exe behavior set disableLastAccess 1;
+	};
+	{
+		reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" /v AUOptions /t REG_DWORD /d 4 /f;
+		reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" /v NoAutoRebootWithLoggedOnUsers /t REG_DWORD /d 1 /f;
+	};
+	{
+		Register-ScheduledTask -TaskName 'MoveActiveHours' -Xml $( Get-Content -LiteralPath 'C:\Windows\Setup\Scripts\MoveActiveHours.xml' -Raw );
+	};
+	{
+		reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v HiberbootEnabled /t REG_DWORD /d 0 /f;
+	};
+	{
+		reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /t REG_DWORD /d 0 /f;
+	};
+	{
+		reg.exe add "HKLM\Software\Policies\Microsoft\Windows\CloudContent" /v "DisableWindowsConsumerFeatures" /t REG_DWORD /d 1 /f;
+	};
+	{
+		reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\BitLocker" /v "PreventDeviceEncryption" /t REG_DWORD /d 1 /f;
+	};
+	{
+		reg.exe add "HKLM\Software\Policies\Microsoft\Edge" /v HideFirstRunExperience /t REG_DWORD /d 1 /f;
+	};
+	{
+		reg.exe add "HKLM\Software\Policies\Microsoft\Edge\Recommended" /v BackgroundModeEnabled /t REG_DWORD /d 0 /f;
+		reg.exe add "HKLM\Software\Policies\Microsoft\Edge\Recommended" /v StartupBoostEnabled /t REG_DWORD /d 0 /f;
+	};
+	{
+		&amp; 'C:\Windows\Setup\Scripts\MakeEdgeUninstallable.ps1';
+	};
+	{
+		&amp; 'C:\Windows\Setup\Scripts\SetStartPins.ps1';
+	};
+	{
+		Set-ItemProperty -LiteralPath "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\ControlAnimations" -Name 'DefaultValue' -Value 0 -Type 'DWord' -Force;
+		Set-ItemProperty -LiteralPath "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\AnimateMinMax" -Name 'DefaultValue' -Value 0 -Type 'DWord' -Force;
+		Set-ItemProperty -LiteralPath "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\TaskbarAnimations" -Name 'DefaultValue' -Value 0 -Type 'DWord' -Force;
+		Set-ItemProperty -LiteralPath "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\DWMAeroPeekEnabled" -Name 'DefaultValue' -Value 0 -Type 'DWord' -Force;
+		Set-ItemProperty -LiteralPath "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\MenuAnimation" -Name 'DefaultValue' -Value 0 -Type 'DWord' -Force;
+		Set-ItemProperty -LiteralPath "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\TooltipAnimation" -Name 'DefaultValue' -Value 0 -Type 'DWord' -Force;
+		Set-ItemProperty -LiteralPath "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\SelectionFade" -Name 'DefaultValue' -Value 0 -Type 'DWord' -Force;
+		Set-ItemProperty -LiteralPath "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\DWMSaveThumbnailEnabled" -Name 'DefaultValue' -Value 0 -Type 'DWord' -Force;
+		Set-ItemProperty -LiteralPath "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\CursorShadow" -Name 'DefaultValue' -Value 0 -Type 'DWord' -Force;
+		Set-ItemProperty -LiteralPath "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\ListviewShadow" -Name 'DefaultValue' -Value 0 -Type 'DWord' -Force;
+		Set-ItemProperty -LiteralPath "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\ThumbnailsOrIcon" -Name 'DefaultValue' -Value 0 -Type 'DWord' -Force;
+		Set-ItemProperty -LiteralPath "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\ListviewAlphaSelect" -Name 'DefaultValue' -Value 0 -Type 'DWord' -Force;
+		Set-ItemProperty -LiteralPath "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\DragFullWindows" -Name 'DefaultValue' -Value 0 -Type 'DWord' -Force;
+		Set-ItemProperty -LiteralPath "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\ComboBoxAnimation" -Name 'DefaultValue' -Value 0 -Type 'DWord' -Force;
+		Set-ItemProperty -LiteralPath "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\FontSmoothing" -Name 'DefaultValue' -Value 0 -Type 'DWord' -Force;
+		Set-ItemProperty -LiteralPath "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\ListBoxSmoothScrolling" -Name 'DefaultValue' -Value 0 -Type 'DWord' -Force;
+		Set-ItemProperty -LiteralPath "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\DropShadow" -Name 'DefaultValue' -Value 0 -Type 'DWord' -Force;
+	};
+	{
+		  reg.exe add "HKLM\System\CurrentControlSet\Control\DeviceGuard" /v "EnableVirtualizationBasedSecurity" /t REG_DWORD /d 0 /f;
+		  reg.exe add "HKLM\System\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v "Enabled" /t REG_DWORD /d 0 /f;
+		  reg.exe add "HKLM\System\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v "EnabledBootId" /t REG_DWORD /d 0 /f;
+		  reg.exe add "HKLM\System\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v "WasEnabledBy" /t REG_DWORD /d 0 /f;
+	};
+	{
+		  reg.exe add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "DisableAutomaticRestartSignOn" /t REG_DWORD /d 1 /f;
+	};
+	{
+		reg.exe add "HKLM\System\CurrentControlSet\Control\Session Manager" /v "DisableWpbtExecution" /t REG_DWORD /d 1 /f;
+	};
+);
+
+&amp; {
+  [float] $complete = 0;
+  [float] $increment = 100 / $scripts.Count;
+  foreach( $script in $scripts ) {
+    Write-Progress -Id 0 -Activity 'Running scripts to customize your Windows installation. Do not close this window.' -PercentComplete $complete;
+    '*** Will now execute command &#xAB;{0}&#xBB;.' -f $(
+      $script.ToString().Trim() -replace '\s+', ' ' -replace '^(.{99})(.+)$', '$1&#x2026;';
+    );
+    $start = [datetime]::Now;
+    &amp; $script;
+    '*** Finished executing command after {0:0} ms.' -f [datetime]::Now.Subtract( $start ).TotalMilliseconds;
+    "`r`n" * 3;
+    $complete += $increment;
+  }
+} *&gt;&amp;1 | Out-String -Width 1KB -Stream &gt;&gt; "C:\Windows\Setup\Scripts\Specialize.log";
+		</File>
+		<File path="C:\Windows\Setup\Scripts\UserOnce.ps1">
+$scripts = @(
+	{
+		Get-AppxPackage -Name 'Microsoft.Windows.Ai.Copilot.Provider' | Remove-AppxPackage;
+	};
+	{
+		[System.Diagnostics.EventLog]::WriteEntry( 'UnattendGenerator', "User '$env:USERNAME' has requested to unlock the Start menu layout.", [System.Diagnostics.EventLogEntryType]::Information, 1 );
+	};
+	{
+		@(
+		  Get-ChildItem -LiteralPath $env:USERPROFILE -Force -Recurse -Depth 2;
+		) | Where-Object -FilterScript {
+			$_.Attributes.HasFlag( [System.IO.FileAttributes]::ReparsePoint );
+		} | Remove-Item -Force -Recurse -Verbose;
+	};
+	{
+		reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /ve /f;
+	};
+	{
+		Set-ItemProperty -LiteralPath 'Registry::HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced' -Name 'LaunchTo' -Type 'DWord' -Value 1;
+	};
+	{
+		Set-ItemProperty -LiteralPath 'Registry::HKCU\Software\Microsoft\Windows\CurrentVersion\Search' -Name 'SearchboxTaskbarMode' -Type 'DWord' -Value 1;
+	};
+	{
+		Set-ItemProperty -LiteralPath 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects' -Name 'VisualFXSetting' -Type 'DWord' -Value 2 -Force;
+	};
+	{
+		New-Item -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu' -Force;
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu' -Name '{5399e694-6ce5-4d6c-8fce-1d8870fdcba0}' -Value 0 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu' -Name '{b4bfcc3a-db2c-424c-b029-7fe99a87c641}' -Value 1 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu' -Name '{a8cdff1c-4878-43be-b5fd-f8091c1c60d0}' -Value 1 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu' -Name '{374de290-123f-4565-9164-39c4925e467b}' -Value 1 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu' -Name '{e88865ea-0e1c-4e20-9aa6-edcd0212c87c}' -Value 1 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu' -Name '{f874310e-b6b7-47dc-bc84-b9e6b38f5903}' -Value 1 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu' -Name '{1cf1260c-4dd0-4ebb-811f-33c572699fde}' -Value 1 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu' -Name '{f02c1a0d-be21-4350-88b0-7367fc96ef3c}' -Value 0 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu' -Name '{3add1653-eb32-4cb0-bbd7-dfa0abb5acca}' -Value 1 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu' -Name '{645ff040-5081-101b-9f08-00aa002f954e}' -Value 0 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu' -Name '{20d04fe0-3aea-1069-a2d8-08002b30309d}' -Value 0 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu' -Name '{59031a47-3f72-44a7-89c5-5595fe6b30ee}' -Value 0 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu' -Name '{a0953c92-50dc-43bf-be83-3742fed03c9c}' -Value 1 -Type 'DWord';
+		New-Item -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel' -Force;
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel' -Name '{5399e694-6ce5-4d6c-8fce-1d8870fdcba0}' -Value 0 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel' -Name '{b4bfcc3a-db2c-424c-b029-7fe99a87c641}' -Value 1 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel' -Name '{a8cdff1c-4878-43be-b5fd-f8091c1c60d0}' -Value 1 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel' -Name '{374de290-123f-4565-9164-39c4925e467b}' -Value 1 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel' -Name '{e88865ea-0e1c-4e20-9aa6-edcd0212c87c}' -Value 1 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel' -Name '{f874310e-b6b7-47dc-bc84-b9e6b38f5903}' -Value 1 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel' -Name '{1cf1260c-4dd0-4ebb-811f-33c572699fde}' -Value 1 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel' -Name '{f02c1a0d-be21-4350-88b0-7367fc96ef3c}' -Value 0 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel' -Name '{3add1653-eb32-4cb0-bbd7-dfa0abb5acca}' -Value 1 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel' -Name '{645ff040-5081-101b-9f08-00aa002f954e}' -Value 0 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel' -Name '{20d04fe0-3aea-1069-a2d8-08002b30309d}' -Value 0 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel' -Name '{59031a47-3f72-44a7-89c5-5595fe6b30ee}' -Value 0 -Type 'DWord';
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel' -Name '{a0953c92-50dc-43bf-be83-3742fed03c9c}' -Value 1 -Type 'DWord';
+	};
+	{
+		Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Start' -Name 'VisiblePlaces' -Value $( [convert]::FromBase64String('ztU0LVr6Q0WC8iLm6vd3PLwkihQM1olCoIBu2buiSIJEgXX+DQiuQovaNO2XtmOUSrC9dEr5aE+L1kOYBx2ovKAHPzgK6IBMsFqG24RdvE2GCHNSqlFDQp97J3ZYRlnU') ) -Type 'Binary';
+	};
+	{
+		C:\Windows\Setup\Scripts\unattend-03.cmd;
+	};
+	{
+		C:\Windows\Setup\Scripts\unattend-04.cmd;
+	};
+	{
+		C:\Windows\Setup\Scripts\unattend-05.cmd;
+	};
+	{
+		reg.exe import "C:\Windows\Setup\Scripts\unattend-06.reg";
+	};
+	{
+		&amp; 'C:\Windows\Setup\Scripts\unattend-07.ps1';
+	};
+	{
+		Get-Process -Name 'explorer' -ErrorAction 'SilentlyContinue' | Where-Object -FilterScript {
+			$_.SessionId -eq ( Get-Process -Id $PID ).SessionId;
+		} | Stop-Process -Force;
+	};
+);
+
+&amp; {
+  [float] $complete = 0;
+  [float] $increment = 100 / $scripts.Count;
+  foreach( $script in $scripts ) {
+    Write-Progress -Id 0 -Activity 'Running scripts to configure this user account. Do not close this window.' -PercentComplete $complete;
+    '*** Will now execute command &#xAB;{0}&#xBB;.' -f $(
+      $script.ToString().Trim() -replace '\s+', ' ' -replace '^(.{99})(.+)$', '$1&#x2026;';
+    );
+    $start = [datetime]::Now;
+    &amp; $script;
+    '*** Finished executing command after {0:0} ms.' -f [datetime]::Now.Subtract( $start ).TotalMilliseconds;
+    "`r`n" * 3;
+    $complete += $increment;
+  }
+} *&gt;&amp;1 | Out-String -Width 1KB -Stream &gt;&gt; "$env:TEMP\UserOnce.log";
+		</File>
+		<File path="C:\Windows\Setup\Scripts\DefaultUser.ps1">
+$scripts = @(
+	{
+		reg.exe add "HKU\DefaultUser\Software\Policies\Microsoft\Windows\WindowsCopilot" /v TurnOffWindowsCopilot /t REG_DWORD /d 1 /f;
+	};
+	{
+		reg.exe add "HKU\DefaultUser\Software\Microsoft\Internet Explorer\LowRegistry\Audio\PolicyConfig\PropertyStore" /f;
+	};
+	{
+		Remove-ItemProperty -LiteralPath 'Registry::HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\Run' -Name 'OneDriveSetup' -Force -ErrorAction 'Continue';
+	};
+	{
+		reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 0 /f;
+	};
+	{
+		reg.exe add "HKU\DefaultUser\Software\Policies\Microsoft\Windows\Explorer" /v "StartLayoutFile" /t REG_SZ /d "C:\Windows\Setup\Scripts\TaskbarLayoutModification.xml" /f;
+		reg.exe add "HKU\DefaultUser\Software\Policies\Microsoft\Windows\Explorer" /v "LockedStartLayout" /t REG_DWORD /d 1 /f;
+	};
+	{
+		reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v ShowTaskViewButton /t REG_DWORD /d 0 /f;
+	};
+	{
+		reg.exe add "HKU\DefaultUser\Software\Microsoft\Edge\SmartScreenEnabled" /ve /t REG_DWORD /d 0 /f;
+		reg.exe add "HKU\DefaultUser\Software\Microsoft\Edge\SmartScreenPuaEnabled" /ve /t REG_DWORD /d 0 /f;
+		reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\AppHost" /v EnableWebContentEvaluation /t REG_DWORD /d 0 /f;
+		reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\AppHost" /v PreventOverride /t REG_DWORD /d 0 /f;
+	};
+	{
+		$names = @(
+		  'ContentDeliveryAllowed';
+		  'FeatureManagementEnabled';
+		  'OEMPreInstalledAppsEnabled';
+		  'PreInstalledAppsEnabled';
+		  'PreInstalledAppsEverEnabled';
+		  'SilentInstalledAppsEnabled';
+		  'SoftLandingEnabled';
+		  'SubscribedContentEnabled';
+		  'SubscribedContent-310093Enabled';
+		  'SubscribedContent-338387Enabled';
+		  'SubscribedContent-338388Enabled';
+		  'SubscribedContent-338389Enabled';
+		  'SubscribedContent-338393Enabled';
+		  'SubscribedContent-353694Enabled';
+		  'SubscribedContent-353696Enabled';
+		  'SubscribedContent-353698Enabled';
+		  'SystemPaneSuggestionsEnabled';
+		);
+		
+		foreach( $name in $names ) {
+		  reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v $name /t REG_DWORD /d 0 /f;
+		}
+	};
+	{
+		reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v TaskbarAl /t REG_DWORD /d 0 /f;
+	};
+	{
+		foreach( $root in 'Registry::HKU\.DEFAULT', 'Registry::HKU\DefaultUser' ) {
+		  Set-ItemProperty -LiteralPath "$root\Control Panel\Keyboard" -Name 'InitialKeyboardIndicators' -Type 'String' -Value 2 -Force;
+		}
+	};
+	{
+		$params = @{
+		  LiteralPath = 'Registry::HKU\DefaultUser\Control Panel\Mouse';
+		  Type = 'String';
+		  Value = 0;
+		  Force = $true;
+		};
+		Set-ItemProperty @params -Name 'MouseSpeed';
+		Set-ItemProperty @params -Name 'MouseThreshold1';
+		Set-ItemProperty @params -Name 'MouseThreshold2';
+	};
+	{
+		reg.exe add "HKU\DefaultUser\Software\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 1 /f;
+	};
+	{
+		reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\TaskbarDeveloperSettings" /v TaskbarEndTask /t REG_DWORD /d 1 /f;
+	};
+	{
+		reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "ShowInfoTip" /d 0 /t REG_DWORD /f;
+	};
+	{
+		reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\RunOnce" /v "UnattendedSetup" /t REG_SZ /d "powershell.exe -WindowStyle \""Hidden\"" -ExecutionPolicy \""Unrestricted\"" -NoProfile -File \""C:\Windows\Setup\Scripts\UserOnce.ps1\""" /f;
+	};
+);
+
+&amp; {
+  [float] $complete = 0;
+  [float] $increment = 100 / $scripts.Count;
+  foreach( $script in $scripts ) {
+    Write-Progress -Id 0 -Activity 'Running scripts to modify the default user&#x2019;&#x2019;s registry hive. Do not close this window.' -PercentComplete $complete;
+    '*** Will now execute command &#xAB;{0}&#xBB;.' -f $(
+      $script.ToString().Trim() -replace '\s+', ' ' -replace '^(.{99})(.+)$', '$1&#x2026;';
+    );
+    $start = [datetime]::Now;
+    &amp; $script;
+    '*** Finished executing command after {0:0} ms.' -f [datetime]::Now.Subtract( $start ).TotalMilliseconds;
+    "`r`n" * 3;
+    $complete += $increment;
+  }
+} *&gt;&amp;1 | Out-String -Width 1KB -Stream &gt;&gt; "C:\Windows\Setup\Scripts\DefaultUser.log";
+		</File>
+		<File path="C:\Windows\Setup\Scripts\FirstLogon.ps1">
+$scripts = @(
+	{
+		@(
+			Get-ChildItem -LiteralPath 'C:\' -Force;
+			Get-ChildItem -LiteralPath 'C:\Users' -Force;
+			Get-ChildItem -LiteralPath 'C:\Users\Default' -Force -Recurse -Depth 2;
+			Get-ChildItem -LiteralPath 'C:\Users\Public' -Force -Recurse -Depth 2;
+			Get-ChildItem -LiteralPath 'C:\ProgramData' -Force;
+		) | Where-Object -FilterScript {
+			$_.Attributes.HasFlag( [System.IO.FileAttributes]::ReparsePoint );
+		} | Remove-Item -Force -Recurse -Verbose;
+	};
+	{
+		Disable-ComputerRestore -Drive 'C:\';
+	};
+	{
+		cmd.exe /c "rmdir C:\Windows.old";
+	};
+	{
+		reg.exe import "C:\Windows\Setup\Scripts\unattend-01.reg";
+	};
+	{
+		&amp; 'C:\Windows\Setup\Scripts\unattend-02.ps1';
+	};
+);
+
+&amp; {
+  [float] $complete = 0;
+  [float] $increment = 100 / $scripts.Count;
+  foreach( $script in $scripts ) {
+    Write-Progress -Id 0 -Activity 'Running scripts to finalize your Windows installation. Do not close this window.' -PercentComplete $complete;
+    '*** Will now execute command &#xAB;{0}&#xBB;.' -f $(
+      $script.ToString().Trim() -replace '\s+', ' ' -replace '^(.{99})(.+)$', '$1&#x2026;';
+    );
+    $start = [datetime]::Now;
+    &amp; $script;
+    '*** Finished executing command after {0:0} ms.' -f [datetime]::Now.Subtract( $start ).TotalMilliseconds;
+    "`r`n" * 3;
+    $complete += $increment;
+  }
+} *&gt;&amp;1 | Out-String -Width 1KB -Stream &gt;&gt; "C:\Windows\Setup\Scripts\FirstLogon.log";
+		</File>
+	</Extensions>
+</unattend>
